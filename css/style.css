@@ -1,0 +1,26 @@
+/* ======CSS of Index MGM Page==========*/
+.mhead{
+
+    background: rgb(255,166,32);
+background: linear-gradient(95deg, rgba(255,166,32,0.9613095238095238) 3%, rgba(32,118,255,1) 32%, rgba(0,82,255,1) 69%, rgba(255,252,0,1) 99%);}
+.hlist{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.mqnews {
+  display: inline-block;
+  cursor: pointer;
+}
+.brandingbg
+{
+  background: rgb(48,178,241);
+background: linear-gradient(90deg, rgba(48,178,241,1) 0%, rgba(196,34,245,1) 33%, rgba(20,170,249,1) 66%, rgba(158,0,255,1) 100%);
+}
+/* ======CSS of About MGM Page==========*/
+.cntrtxt{
+text-align: center;
+}
+.mrgn{
+  margin-left: 22px;
+}
