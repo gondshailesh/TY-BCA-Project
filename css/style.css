@@ -1,8 +1,9 @@
 /* ======CSS of Index MGM Page==========*/
-.mhead{
+/*.mhead{
 
     background: rgb(255,166,32);
 background: linear-gradient(95deg, rgba(255,166,32,0.9613095238095238) 3%, rgba(32,118,255,1) 32%, rgba(0,82,255,1) 69%, rgba(255,252,0,1) 99%);}
+*/
 .hlist{
     list-style-type: none;
     text-align: center;
@@ -23,4 +24,19 @@ text-align: center;
 }
 .mrgn{
   margin-left: 22px;
+}
+@media only screen and (max-width: 576px) {
+  #navlist11 {
+    color:black;
+    background:skyblue
+    
+  }
+  
+}
+@media only screen and (min-width: 576px) {
+  .offcanvas-body {
+content-visibility: visible;
+justify-content: center;
+display: flex;
+  }
 }
