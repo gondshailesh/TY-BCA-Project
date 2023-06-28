@@ -25,18 +25,4 @@ text-align: center;
 .mrgn{
   margin-left: 22px;
 }
-@media only screen and (max-width: 576px) {
-  #navlist11 {
-    color:black;
-    background:skyblue
-    
-  }
-  
-}
-@media only screen and (min-width: 576px) {
-  .offcanvas-body {
-content-visibility: visible;
-justify-content: center;
-display: flex;
-  }
-}
+
