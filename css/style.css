@@ -4,6 +4,7 @@
     background: rgb(255,166,32);
 background: linear-gradient(95deg, rgba(255,166,32,0.9613095238095238) 3%, rgba(32,118,255,1) 32%, rgba(0,82,255,1) 69%, rgba(255,252,0,1) 99%);}
 */
+
 .hlist{
     list-style-type: none;
     text-align: center;
@@ -13,10 +14,23 @@ background: linear-gradient(95deg, rgba(255,166,32,0.9613095238095238) 3%, rgba(
   display: inline-block;
   cursor: pointer;
 }
-.brandingbg
+.hov-li
 {
-  background: rgb(48,178,241);
-background: linear-gradient(90deg, rgba(48,178,241,1) 0%, rgba(196,34,245,1) 33%, rgba(20,170,249,1) 66%, rgba(158,0,255,1) 100%);
+  list-style-type: none;!important
+  text-decoration: none;
+
+}
+.hov-li :hover
+{
+  list-style-type: none;
+  color: black;
+  background-color:rgb(188, 205, 255);
+}
+.icon-link{
+  color: black;
+  list-style-type: none;
+  padding-left: 20px;
+  text-decoration: none;
 }
 /* ======CSS of About MGM Page==========*/
 .cntrtxt{
@@ -25,9 +39,8 @@ text-align: center;
 .mrgn{
   margin-left: 22px;
 }
-
-.hov-li :hover
-{
-  text-decoration: none;
-  background-color: skyblue;
+.icon-link.link-hover{
+  padding-left: 20px;
 }
+
+
