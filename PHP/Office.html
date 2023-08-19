@@ -5,19 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../animate/animate.css-main/animate.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../img/logo-g.png" />
-  <title>Document</title>
-</head>
-<body>
+  <title>Office use</title>
 <style>
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.mrgn
-{
 }
 .bg_img
 {
@@ -28,30 +22,32 @@ filter: brightness(50%);
 </style>
 </head>
 <body class="">
-  <?php
+    <?php
   include'header.php'
   ?>
 
-<div class="">
-  <div class="center bg-info bg-opacity-25">
-  <div class=" mrgn p-5 p-3 w-50">
+<div class="container-fluid bg-info bg-opacity-25">
+  <div class="center">
+  <div class=" mrgn p-5 p-3 w-75">
     <form action="post" class="form-control mt-2 ">
       <div class="">
-        <center><strong><h5 class="mb-2">Login</h5></strong>
+        <center><strong><h5 class="mb-2">Register</h5></strong>
       </div>
-      <input type="email" class="form-control mt-2 mb-3" placeholder="Enter your email.." required>
-      <input type="password" class="form-control mt-2 mb-3" placeholder="Enter Correct Password.." required>
+      <div class="">
+        <input type="text" class="form-control mt-2" placeholder="Enter Your Fullname..." required>
+      <input type="" class="form-control mt-2" placeholder="" required>
+      </div>
+      <input type="" class="form-control mt-2" placeholder="" required>
+      <input type="password" class="form-control mt-2" placeholder="Enter Correct Password.." required>
       <div class="d-flex ">
         <button class="btn btn-outline-warning mt-2 w-50 me-2">Reset</button>
         <button class="btn btn-outline-primary mt-2 w-50 ms-2">submit</button>
       </div>
-      <center><p>New Register &nbsp;&nbsp;<a href="Office.html"class="hlist">click here..</a></p></center>
+      <center><p>Back to Login &nbsp;&nbsp;<a href="login .php"class="hlist">click here..</a></p></center>
     </form>
   </div>
 </div>
 </div>
 
-       
-</body>
 <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>

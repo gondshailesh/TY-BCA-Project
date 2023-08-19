@@ -18,8 +18,9 @@ background: linear-gradient(95deg, rgba(255,166,32,0.9613095238095238) 3%, rgba(
 {
   list-style-type: none;!important
   text-decoration: none;
-
+  
 }
+
 .hov-li :hover
 {
   list-style-type: none;
@@ -49,6 +50,7 @@ text-align: center;
 }
 .icon-link.link-hover{
   padding-left: 20px;
+  margin-top: 40px;
 }
 /* css of Sports and achievements*/
 .res_table{

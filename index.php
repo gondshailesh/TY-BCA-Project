@@ -190,9 +190,16 @@
       <!-- Header ofcanvas-->
       <div class="container-fluid bg-transparent text-end">
       <!--news and Event-->
-      <marquee behavior="" class="mqnews" direction="left">
+      <marquee behavior="" class="mqnews" direction="left" onmouseover="this.stop(); "onmouseout="this.start();">
       <p>
-          <img src="img/new.gif" alt=""><a href="https://mgmccsit.ac.in/">Timetable of Winter and Summer</a>
+          <img src="img/new.gif" alt=""><a href="doc\TT_Winter_2021 (1).pdf" class="mrq_ls">Time Table Winter</a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><a href="https://srtmun.ac.in/en/?option=com_content&view=article&id=1397" class="mrq_ls"></a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
       </p>
       </marquee>
      </div>
@@ -239,7 +246,7 @@
       
       <!-- Har Ghar Tiranga -->
       <div class="container mt-2">
-        <img src="img/Har-Ghar-Tiranga.jpg" class="img-fluid shadow-lg rounded-2 w-100" alt="">
+        <img src="img/har-ghar-tiranga-web-banner-download-section.jpg" class="img-fluid shadow-lg rounded-2 w-100" alt="">
       </div>
       <!--  End Har Ghar Tiranga -->
        <!--link tender-->
@@ -309,7 +316,7 @@
               <center>
                 <a href="https://www.facebook.com/Mgmccsitned"><button class="btn btn-outline-primary mb-3"> Follow Us On Facebook</button></a>
               </center>
-             <!-- carasoul item-->
+             <!-- carasoul item of success stories-->
              <center><strong style="color: rgb(88, 189, 0);">*Success Stories*</strong></center>
              <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
                <div class="carousel-inner">
