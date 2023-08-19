@@ -32,6 +32,14 @@ background: linear-gradient(95deg, rgba(255,166,32,0.9613095238095238) 3%, rgba(
   padding-left: 20px;
   text-decoration: none;
 }
+/* ragg
+{
+  background-image: url(../img/Say-no-to-Ragging.gif);
+  image-resolution: 25%;
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: contain;  
+} */
 /* ======CSS of About MGM Page==========*/
 .cntrtxt{
 text-align: center;
@@ -42,5 +50,16 @@ text-align: center;
 .icon-link.link-hover{
   padding-left: 20px;
 }
+/* css of Sports and achievements*/
+.res_table{
+  overflow-x: scroll;
+}
+.y-img
+{
+  overflow-y: scroll; 
+  height: 380px;
+}
 
+.leaflet{
 
+}
