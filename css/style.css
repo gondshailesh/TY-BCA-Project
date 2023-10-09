@@ -4,7 +4,9 @@
     background: rgb(255,166,32);
 background: linear-gradient(95deg, rgba(255,166,32,0.9613095238095238) 3%, rgba(32,118,255,1) 32%, rgba(0,82,255,1) 69%, rgba(255,252,0,1) 99%);}
 */
-
+.ind_crsl{
+height: 900px;!important
+}
 .hlist{
     list-style-type: none;
     text-align: center;
@@ -50,7 +52,7 @@ text-align: center;
 }
 .icon-link.link-hover{
   padding-left: 20px;
-  margin-top: 40px;
+  margin-top: 5px;
 }
 /* css of Sports and achievements*/
 .res_table{

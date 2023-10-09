@@ -11,6 +11,33 @@
   </head>
   <body>
     <div class="container-fluid">
+
+      <div class="">
+        <div class="">
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Online</button>
+        </div>
+      </div>
+      <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Select Catogery</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="d-flex justify-content-between justify-content-center gap-1">
+                    <div class="ms-5"><a href="includedphp/registration_PG .php"><button class="btn btn-warning">Post Graduate</button></a> </div>
+                    <div class="me-5"><a href="includedphp/registration_UG.php"><button class="btn btn-primary">Under  Graduate</button></a> </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thankyou..!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End  Modal -->
       
             <!--logo and name of college-->
       <center>
@@ -26,14 +53,14 @@
       </center>
       <!-- End logo and name of college-->
       <!-- Header ofcanvas-->
-      <div>
+      <div class=" d-sm-block d-md-block d-sm-block ">
         <nav class="navbar bg-info">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.php">HOME</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="index.php">HOME</a></h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -51,10 +78,10 @@
                       </h2>
                       <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/About mgm.php" class="icon-link link-hover w-100">About MGM</a></div>
-                          <div class="hov-li"><a href="html/vision&mission.php" class="icon-link link-hover w-100">Vision & Mission</a></div>
-                          <div class="hov-li"><a href="html/founder and managment.php" class="icon-link link-hover w-100">Founder & Management</a></div>
-                          <div class="hov-li"><a href="html/acadmic excellnce.php" class="icon-link link-hover w-100">Academic Excellence</a></div>
+                          <div class="hov-li"><a href="menu_files/About mgm.php" class="icon-link link-hover w-100">About MGM</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/vision&mission.php" class="icon-link link-hover w-100">Vision & Mission</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/founder and managment.php" class="icon-link link-hover w-100">Founder & Management</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/acadmic excellnce.php" class="icon-link link-hover w-100">Academic Excellence</a></div><hr>
                         </div>
                       </div>
                     </div>
@@ -66,11 +93,11 @@
                       </h2>
                       <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/About college.php" class="icon-link link-hover w-100">About College</a></div>
-                          <div class="hov-li"><a href="html/chairman's message.php" class="icon-link link-hover w-100">Chairman's Message</a></div>
-                          <div class="hov-li"><a href="html/" class="icon-link link-hover w-100">Director's Message</a></div>
-                          <div class="hov-li"><a href="html/Principal's desk.php" class="icon-link link-hover w-100">Principal's Desk</a></div>
-                          <div class="hov-li"><a href="html/HOD's desk.php" class="icon-link link-hover w-100">HOD's Desk</a></div>
+                          <div class="hov-li"><a href="menu_files/About college.php" class="icon-link link-hover w-100">About College</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/chairman's message.php" class="icon-link link-hover w-100">Chairman's Message</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/" class="icon-link link-hover w-100">Director's Message</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/Principal's desk.php" class="icon-link link-hover w-100">Principal's Desk</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/HOD's desk.php" class="icon-link link-hover w-100">HOD's Desk</a></div>
                         </div>
                       </div>
                     </div>
@@ -82,9 +109,9 @@
                       </h2>
                       <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/course offered.php" class="icon-link link-hover w-100">Course Offered</a></div>
-                          <div class="hov-li"><a href="html/Admission and Fees structure.php" class="icon-link link-hover w-100">Admission and Fee Structure</a></div>
-                          <div class="hov-li"><a href="html/Acadmic calender.php" class="icon-link link-hover w-100">Academic Calender</a></div>
+                          <div class="hov-li"><a href="menu_files/course offered.php" class="icon-link link-hover w-100">Course Offered</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/Admission and Fees structure.php" class="icon-link link-hover w-100">Admission and Fee Structure</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/Acadmic calender.php" class="icon-link link-hover w-100">Academic Calender</a></div>
                         </div>
                       </div>
                     </div>
@@ -96,9 +123,9 @@
                       </h2>
                       <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/computer science and it.php" class="icon-link link-hover w-100">Computer Science & IT</a></div>
-                          <div class="hov-li"><a href="html/Biotechnology and bio informatics.php" class="icon-link link-hover w-100">Biotechnology & Bioinformatics</a></div>
-                          <div class="hov-li"><a href="html/electronics.php" class="icon-link link-hover w-100">Electronics</a></div>
+                          <div class="hov-li"><a href="menu_files/computer science and it.php" class="icon-link link-hover w-100">Computer Science & IT</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/Biotechnology and bio informatics.php" class="icon-link link-hover w-100">Biotechnology & Bioinformatics</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/electronics.php" class="icon-link link-hover w-100">Electronics</a></div>
                         </div>
                       </div>
                     </div>
@@ -110,13 +137,13 @@
                       </h2>
                       <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/arohan.php" class="icon-link link-hover w-100">Arohan</a></div>
-                          <div class="hov-li"><a href="html/technical activities .php" class="icon-link link-hover w-100">Technical Activities</a></div>
-                          <div class="hov-li"><a href="html/cultural activities.php" class="icon-link link-hover w-100">Cultural Activities</a></div>
-                          <div class="hov-li"><a href="html/sport activities.php" class="icon-link link-hover w-100">Sport Activities</a></div>
-                          <div class="hov-li"><a href="html/event and festivals.php" class="icon-link link-hover w-100">Event & Festivals</a></div>
-                          <div class="hov-li"><a href="html/educational tour.php" class="icon-link link-hover w-100">Educational Tour</a></div>
-                          <div class="hov-li"><a href="html/TEch-life.php" class="icon-link link-hover w-100">Tec Life</a></div>
+                          <div class="hov-li"><a href="menu_files/arohan.php" class="icon-link link-hover w-100">Arohan</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/technical activities .php" class="icon-link link-hover w-100">Technical Activities</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/cultural activities.php" class="icon-link link-hover w-100">Cultural Activities</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/sport activities.php" class="icon-link link-hover w-100">Sport Activities</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/event and festivals.php" class="icon-link link-hover w-100">Event & Festivals</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/educational tour.php" class="icon-link link-hover w-100">Educational Tour</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/TEch-life.php" class="icon-link link-hover w-100">Tec Life</a></div>
 
                         </div>
                       </div>
@@ -129,13 +156,13 @@
                       </h2>
                       <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/library and reding room.php" class="icon-link link-hover w-100">Library & Reading Room</a></div>
-                          <div class="hov-li"><a href="html/scholarship.php" class="icon-link link-hover w-100">Scholarship</a></div>
-                          <div class="hov-li"><a href="html/WiFi internet.php" class="icon-link link-hover w-100">WiFi Internet</a></div>
-                          <div class="hov-li"><a href="html/water testing.php" class="icon-link link-hover w-100">Water Testing</a></div>
-                          <div class="hov-li"><a href="html/cafearea.php" class="icon-link link-hover w-100">Cafteria</a></div>
-                          <div class="hov-li"><a href="html/green and clean campus.php" class="icon-link link-hover w-100">Green & Clean Campus</a></div>
-                          <div class="hov-li"><a href="html/Ro plant.php" class="icon-link link-hover w-100">RO plant</a></div>
+                          <div class="hov-li"><a href="menu_files/library and reding room.php" class="icon-link link-hover w-100">Library & Reading Room</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/scholarship.php" class="icon-link link-hover w-100">Scholarship</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/WiFi internet.php" class="icon-link link-hover w-100">WiFi Internet</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/water testing.php" class="icon-link link-hover w-100">Water Testing</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/cafearea.php" class="icon-link link-hover w-100">Cafteria</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/green and clean campus.php" class="icon-link link-hover w-100">Green & Clean Campus</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/Ro plant.php" class="icon-link link-hover w-100">RO plant</a></div>
                         </div>
                       </div>
                     </div>
@@ -147,9 +174,9 @@
                       </h2>
                       <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/placement cell.php" class="icon-link link-hover w-100">Placement Cell</a></div>
-                          <div class="hov-li"><a href="html/campus placement.php" class="icon-link link-hover w-100">Campus Placement</a></div>
-                          <div class="hov-li"><a href="html/alumini.php" class="icon-link link-hover w-100">Alumni</a></div>
+                          <div class="hov-li"><a href="menu_files/placement cell.php" class="icon-link link-hover w-100">Placement Cell</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/campus placement.php" class="icon-link link-hover w-100">Campus Placement</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/alumini.php" class="icon-link link-hover w-100">Alumni</a></div>
                         </div>
                       </div>
                     </div>
@@ -161,8 +188,8 @@
                       </h2>
                       <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/students achivements.php" class="icon-link link-hover w-100">Student's Achivements</a></div>
-                          <div class="hov-li"><a href="html/teacher's achivements.php" class="icon-link link-hover w-100">Teacher's Achivements</a></div>
+                          <div class="hov-li"><a href="menu_files/students achivements.php" class="icon-link link-hover w-100">Student's Achivements</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/teacher's achivements.php" class="icon-link link-hover w-100">Teacher's Achivements</a></div>
                         </div>
                       </div>
                     </div>
@@ -174,8 +201,8 @@
                       </h2>
                       <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                          <div class="hov-li"><a href="html/teaching staff.php" class="icon-link link-hover w-100">Teaching Staff</a></div>
-                          <div class="hov-li"><a href="html/non teaching staff.php" class="icon-link link-hover w-100">Non Teaching Staff</a></div>
+                          <div class="hov-li"><a href="menu_files/teaching staff.php" class="icon-link link-hover w-100">Teaching Staff</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/non teaching staff.php" class="icon-link link-hover w-100">Non Teaching Staff</a></div><hr>
                         </div>
                       </div>
                     </div>
@@ -192,14 +219,19 @@
       <!--news and Event-->
       <marquee behavior="" class="mqnews" direction="left" onmouseover="this.stop(); "onmouseout="this.start();">
       <p>
-          <img src="img/new.gif" alt=""><a href="doc\TT_Winter_2021 (1).pdf" class="mrq_ls">Time Table Winter</a> &nbsp;&nbsp;
-          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
-          <img src="img/new.gif" alt=""><a href="https://srtmun.ac.in/en/?option=com_content&view=article&id=1397" class="mrq_ls"></a> &nbsp;&nbsp;
-          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
-          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
-          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
-          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
-          <img src="img/new.gif" alt=""><a href="" class="mrq_ls"></a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt="">*<a href="doc\TT_Winter_2021 (1).pdf" class="mrq_ls">Time Table Winter</a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt="">* <strong>College Uniform & ID Card is Compulsory</strong> &nbsp;&nbsp;
+          <img src="img/new.gif" alt="">*<a href="https://srtmun.ac.in/en/?option=com_content&view=article&id=1397" class="mrq_ls">University Ranker M.Sc.(SE)(Summer 2020)</a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt="">*<a href="https://srtmun.ac.in/en/?option=com_content&view=article&id=1397" class="mrq_ls">University Ranker B.Sc. BIOINFORMATICS (Summer 2020)</a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt="">*<a href="html\campus placement.php" class="mrq_ls">Recent Placements 19-20</a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt="">*<a href="https://www.srtmun.ac.in/en/syllabi.html" class="mrq_ls">SRTMUN Syllabi</a> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><strong>Admissions are  open for these courses</srtong> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><strong>B.SC.Computer Science</strong>  &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><strong>B.SC.Biotechnology</strong> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><strong>B.SC.Bioinformatics</strong> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><strong>M.SC.Biotechnology</strong> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><strong>M.SC.Softwere Engg.</strong> &nbsp;&nbsp;
+          <img src="img/new.gif" alt=""><strong>M.SC.Electronics</strong> &nbsp;&nbsp;
       </p>
       </marquee>
      </div>
@@ -302,7 +334,7 @@
             <div class=""><center><img src="img/mgm .jpg" class=" mt-4 img-fluid" width="500" height="250" alt=""></center></div>
               <p class="p-3">
                 Since its inception in 1982 Mahatma Gandhi Mission developed a chain of more than 50 educational organizations, health care centres and social welfare units function under its umbrella at 5 centers wiz. Aurangabad, Nanded, Navi Mumbai, Noida and Parbhani. It is a quest of 3 decades MGM proves the deep faith of her management in the power of education that leads the society towards prosperity of the nation.
-                <a href="html/About college.php" class="hov-li">More Info..</a>
+                <a href="menu_files/About college.php" class="hov-li">More Info..</a>
               </p>
             </div>
           </div>
@@ -321,103 +353,132 @@
              <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
                <div class="carousel-inner">
                  <div class="carousel-item active">
-                   <div class=" w-100 p-3">
+                   <div class=" crsl">
+                   <div class="">
                     <center><b>Miss.Rawat Shivani Rakesh</b></center>
                     <center><img src="img/miss.rawat.jpg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University I st Rank M.Sc.(SE)</b></center>
                     <p class="p-3">Our college student Miss.Rawat Shivani Rakesh has got glorious success in PG level examinination 2020 as she stood Ist in University rank in M.Sc.(SE).</p>     
                    </div>
+                   </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Miss. T.DIVYA PURUSHOTTAM</b></center>
-                   <div class=" w-100 p-3">
+                   <div class="crsl">
+                   <div class="">
+                   <center><b>Miss. T.DIVYA PURUSHOTTAM</b></center>
                     <center><img src="img/miss. Divya.jpeg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University IIIrd Rank M.Sc.(SE)</b></center>
                     <p class="p-3">Our college student Miss. T.DIVYA PURUSHOTTAM has got glorious success in PG level examinination 2020 as she stood IIIrd in University rank in M.Sc.(SE).</p>     
                    </div>
+                   </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Miss. Gawalwad Pooja</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class="">
+                   <center><b>Miss. Gawalwad Pooja</b></center>
                     <center><img src="img/miss.Gawalwad Pooja.jpg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University I Rank M.Sc (BI)</b></center>
                     <p class="p-3">Our college student Miss.Gawalwad Pooja has got glorious success in PG level examinination 2020 as she stood Ist in University rank in M.Sc(BI).</p>     
                    </div>
+                  </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Mr.VYAVHARE GUNAJI PRAKASH</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class="">
+                   <center><b>Mr.VYAVHARE GUNAJI PRAKASH</b></center>
                     <center><img src="img/Gunaji Vyavahare.jpeg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University IInd Rank M.Sc (BI)</b></center>
                     <p class="p-3">Our college student Mr.Vyavhare Gunaji P. has got glorious success in PG level examinination 2020 as he stood IInd in University rank in M.Sc(BI).</p>     
                    </div>
+                  </div>               
                  </div>
                  <div class="carousel-item">
-                  <center><b>DOSALWAR SHWETA VIJAYKUMAR</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class=" ">
+                   <center><b>DOSALWAR SHWETA VIJAYKUMAR</b></center>
                     <center><img src="img/miss.Shweta Dosalwar.jpeg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University IIIrd Rank M.Sc (BI)</b></center>
                     <p class="p-3">Our college student Dosalwar Shweta Vijaykumar has got glorious success in PG level examinination 2020 as she stood IIIrd in University rank in M.Sc(BI).</p>     
                    </div>
+                  </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Miss. Razvi Ummehani</b></center>
-                   <div class=" w-100 p-3">
+                   <div class="crsl">
+                   <div class="">
+                   <center><b>Miss. Razvi Ummehani</b></center>
                     <center><img src="img/missRazvi Ummehani.jpg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University Ist Rank M.Sc (BI)</b></center>
                     <p class="p-3">Our college student Miss. Razvi Ummehani has got glorious success in PG level examinination as she stood Ist in University rank in M.Sc(BI).</p>     
                    </div>
+                   </div>
                  </div>
                  <div class="carousel-item">
+                  <div class="crsl">
+                  <div class="">
                   <center><b>Mr. Lodhe Ankush</b></center>
-                   <div class=" w-100 p-3">
                     <center><img src="img/Lodhe Ankush.jpg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University IInd Rank M.Sc (BI)</b></center>
                     <p class="p-3">Our college student Mr. Lodhe Ankush has got glorious success in PG level examinination as he stood IInd in University rank in M.Sc(BI).</p>     
                    </div>
+                  </div>
+                   
                  </div>
                  <div class="carousel-item">
-                  <center><b>Mr. Suryawanshi Avinash</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class="">
+                   <center><b>Mr. Suryawanshi Avinash</b></center>
                     <center><img src="img/Suryawanshi Avinash.jpg" class="img-fluid" height="150" width="100" alt=""></center>
                     <center><b>University IInd Rank MSc (SE)</b></center>
                     <p class="p-3">Our college student Mr. Suryawanshi Avinash has got glorious success in PG level examinination as he stood IInd in University rank in M.Sc(BI).</p>     
                    </div>
+                  </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>University Level Avishkar winners 2019</b></center>
-                   <div class=" w-100 p-3">
+                   <div class="crsl">
+                   <div class="">
+                    <center><b>University Level Avishkar winners 2019</b></center>
                     <center><img src="img/Avishkar_University level 1 .jpg" class="img-fluid" height="180" width="300" alt=""></center>
                    </div>
+                   </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Avishkar Winner 2019</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class="">
+                   <center><b>Avishkar Winner 2019</b></center>
                     <center><img src="img/Avishkar. 2jpg.jpg" class="img-fluid" height="180" width="300" alt=""></center>
                    </div>
+                  </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Hon.Vice Chairman sir in Tech-expo.</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class="">
+                   <center><b>Hon.Vice Chairman sir in Tech-expo.</b></center>
                     <center><img src="img/techexpo_chairman.jpg" class="img-fluid" height="180" width="300" alt=""></center>
                    </div>
+                  </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Hon.Chairman sir visiting stalls in Tech-expo 2019 along with Prof. Kotgire S.L</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class="">
+                   <center><b>Hon.Chairman sir visiting stalls in Tech-expo 2019 along with Prof. Kotgire S.L</b></center>
                     <center><img src="img/Techexpo chairman.jpg" class="img-fluid" height="180" width="300" alt=""></center>
                    </div>
+                  </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>Zankar Fest</b></center>
-                   <div class=" w-100 p-3">
+                  <div class="crsl">
+                  <div class="">
+                   <center><b>Zankar Fest</b></center>
                     <center><img src="img/Zankar2014.jpg" class="img-fluid"  height="180" width="300" alt=""></center>
                    </div>
+                  </div>
                  </div>
                  <div class="carousel-item">
-                  <center><b>District Level AVSHKAR Winners-2019</b></center>
-                   <div class=" w-100 p-3">
+                   <div class="crsl">
+                   <div class="">
+                   <center><b>District Level AVSHKAR Winners-2019</b></center>
                     <center><img src="img/Avishkar-2019.jpg" class="img-fluid" height="180" width="300" alt=""></center>
+                   </div>
                    </div>
                  </div>
                </div>
@@ -437,40 +498,10 @@
         </div>
         <!--php footer-->
         <?php
-        include'PHP/footer.php';
+        include'includedphp/footer.php';
         ?>
         <!--End php footer-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
   </body>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>
