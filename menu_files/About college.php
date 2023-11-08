@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../img/logo-g.png" />
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid" style="background-color: gray;>
     <!--php header file included-->
         <?php
         include'../includedphp/header.php';
@@ -17,7 +17,7 @@
     <!--End php header file included-->
 
 <!--About the collage -->
-<div class="container">
+<div class="container" ">
   <center><strong>About Collage</strong></center>
  <center><img src="../img/mgm .jpg" class="img-fluid" alt="mgm oic"></center>
 <div class="row mt-2  gap-3  ">

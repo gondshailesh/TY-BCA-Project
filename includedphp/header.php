@@ -1,7 +1,7 @@
       <!--logo and name of college-->
       <center>
         <div class="container-fluid mhead">
-          <img src="../img/logo-g.png" alt="mgmlogo" />
+          <img src="../img/" alt="mgmlogo" />
           <h3>Mahatma Gandhi Missions's</h3>
           <h2>COLLEGE OF COMPUTER SCIENCE & INFORMATION TECHONOLOGY</h2>
           <strong
