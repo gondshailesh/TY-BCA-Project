@@ -22,21 +22,21 @@
       </p></center></strong>
       <div class="row">
         <div class="col-lg-6 col-sm-12 mt-2">
-         <img src="../img/scolarship1.jpg" height="400" width="500"  class="img-fluid shadow-lg rounded-2" alt="">
+         <img src="../img/scolarship1.jpg" height="400" width="500"  class="img-fluid    shadow-sm    " alt="">
         </div>
         <div class="col-lg-6 col-sm-12 mt-2">
-        <img src="../img/scolarship2.jpg" height="400" width="500" class="img-fluid shadow-lg rounded-2" alt="">
+        <img src="../img/scolarship2.jpg" height="400" width="500" class="img-fluid    shadow-sm    " alt="">
         </div>
       </div>
 
       <strong><center><p class="mt-2">Scholarship Notice</p></center></strong>
       <div class="row">
         <div class="col-lg-6 col-sm-12 mt-2 ">
-          <p class="shadow-lg p-3">
+          <p class="   shadow-sm p-3">
             All the regular students of UG (B.Sc. Comp.Sci, BCA, BT,BI) & PG (M.Sc.SE,BT,BI) are here by informed that they should submit theSCHOLARSHIP & FREESHIP Forms (TWO COPIES)with new application & or renewal application in the college office along with necessary documents.
           </p>
         </div>
-        <div  class="col-lg-6 col-sm-12 mt-2  p-3 shadow-lg rounded-2">
+        <div  class="col-lg-6 col-sm-12 mt-2  p-3    shadow-sm    ">
             <b>
             <p>Last date of schlorship form submission for current academic year will be displayed on notice board.</p>
 </b>            
@@ -46,7 +46,7 @@
       </div>
             <strong><center><p class="mt-5 ">PRINCIPAL Kotgire S.L.</p></center></strong>
             <div class="row text-sm-center justify-content-center gap-4 text-lg-start text-md-center text-sm-start">
-              <div class="col-lg-5 col-sm-12 p-3 shadow-lg"><p>
+              <div class="col-lg-5 col-sm-12 p-3    shadow-sm"><p>
                 <center><strong>Required Documents For Scholarship</strong></center>
               <p>1) HSC/Dip./Degree Mark Memo & T.C.(for fresh students )</p>              
               <p>2) Dist.Change Certificate</p>
@@ -60,7 +60,7 @@
               <p>10) Rashan Card Xerox(First & Last Page)</p>
 </p>
 </div>
-              <div class="col-lg-5 col-sm-12 p-3 shadow-lg"><p>
+              <div class="col-lg-5 col-sm-12 p-3    shadow-sm"><p>
                 <center><strong>Required Documents For Freeship</strong></center>
               <p>1) HSC/Dip./Degree Mark Memo & T.C.(for fresh students )</p>
               <p>2) Dist.Change Certificate</p>

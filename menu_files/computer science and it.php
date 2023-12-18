@@ -23,10 +23,10 @@
             </p>
           </center>
         </strong>
-        <img src="../img/ComputerScience.jpg" class="img-fluid w-100 rounded-2 " alt="computer science & it">
+        <img src="../img/ComputerScience.jpg" class="img-fluid w-100     " alt="computer science & it">
 
          <div class="row  justify-content-between mt-4 w-100">
-          <div class="col-lg-5 col-sm-12 shadow-lg  rounded-2 mt-3 p-3">
+          <div class="col-lg-5 col-sm-12    shadow-sm      mt-3 p-3">
             <p>
               In every part of life, use of computers become essential. Right from railway reservation to sophisticated medical equipments, computers are inevitable. In every field, there is high demand of computer professionals. In modern world of  information technology, to achieve the top position, one must have to bw updated with recent knowledge like VB.NET, Neural Network, VC++, JAVA etc. 
             </p> 
@@ -35,7 +35,7 @@
             </p>
           </div>
           
-          <div class="col-lg-6 col-sm-12 shadow-lg rounded-2 mt-3 p-3">
+          <div class="col-lg-6 col-sm-12    shadow-sm     mt-3 p-3">
             <p>
               Computer knowledge is not restricted to the science students; rather students of Arts, Commerce and MCVC are also having good opportunities to make their careers in computers. The BCA (Bachelor of Computer Application) course, which is basically designed for them provides equal opportunities as like engineering and science students to get good job. Computer and IT is the leading industry that provides more jobs and opportunities with luxuries and high salaries in India as well as in abroad.
             </p>

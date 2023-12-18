@@ -19,18 +19,18 @@
     <div class="container">
       <!--TECH-LIFE-->
     <strong><center><p class="mt-2">TECH-LIFE</p></center></strong>
-<center>    <img src="../img/TEchlife.jpg" class="img-fluid mt-2 shadow-lg rounded-2" alt="tech Tech-life"></center>    
+  <center>    <img src="../img/TEchlife.jpg" class="img-fluid mt-2    shadow-sm    " alt="tech Tech-life"></center>    
     <strong><center><p class="mt-4">REPORT ON TECH-LIFE</p></center></strong>
     <strong><center><p class="mt-2">TECH-LIFE</p></center></strong>
     
     <div class="row">
      <div class="col-sm-12 col-lg-4 mt-2 p-3">
-     <p class="p-4 shadow-lg rounded-2">
+     <p class="p-4    shadow-sm    ">
        A club in our college which provides an opportunity to live friendly with environment apart from our busy schedule. This club was founded by our college alumni Mr. Ritesh Loya on 1st march 1991. our director Dr. Mrs.Geeta Lathkar Madam is the Founder & Management chairperson. Mr. Shrinivas S. Aundhkar, is the co-ordinator since from 2000. Due to increasing strength of students we are conducting an Entrance for the membership of this club from last five years. Every Saturday & Sunday meetings are conducted for Personality Development of students. Also studetns organizes visit to various environmental , historical places in Nanded district, Nirmalya Sankkalan during Ganpati visarjan ,Trekking in Himalay or sahyadri ranges, seminars on various topics are the activities of this club. the various activities of this foundation during the academic year 2009-Till Date are as follows:-
      </p>
      </div>
      <div class="col-sm-12 col-lg-8 mt-2 p-3">
-      <ul class="p-4 shadow-lg rounded-2">
+      <ul class="p-4    shadow-sm    ">
         <li>An activity of Nirmalya Sankkalan from 09 am to 6 pm was conducted. Total 48 members and our alumni Left.Commander Mr.shivanand Darbastwar was present .Total 4 tons of nirmallay was collected jointly with Municipal Corporation.</li>
         <li>A visit to Pimpalgion Mahadev village which is awarded as first winner of"Gram Swachata Abhiyan"And "tanta mukti village" for the year 2008-09</li>
         <li>Movies named Apollo-13 & Dongratil Shala were shown to student's</li>

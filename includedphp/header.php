@@ -1,7 +1,7 @@
       <!--logo and name of college-->
       <center>
         <div class="container-fluid mhead">
-          <img src="../img/" alt="mgmlogo" />
+          <img src="../img/logo-g.png" alt="mgmlogo" />
           <h3>Mahatma Gandhi Missions's</h3>
           <h2>COLLEGE OF COMPUTER SCIENCE & INFORMATION TECHONOLOGY</h2>
           <strong
@@ -54,7 +54,7 @@
                         <div class="accordion-body">
                           <div class="hov-li"><a href="../menu_files/About college.php" class="icon-link link-hover w-100">About College</a></div><hr>
                           <div class="hov-li"><a href="../menu_files/chairman's message.php" class="icon-link link-hover w-100">Chairman's Message</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/" class="icon-link link-hover w-100">Director's Message</a></div><hr>
+                          <div class="hov-li"><a href="../menu_files/Director's message.php" class="icon-link link-hover w-100">Director's Message</a></div><hr>
                           <div class="hov-li"><a href="../menu_files/Principal's desk.php" class="icon-link link-hover w-100">Principal's Desk</a></div><hr>
                           <div class="hov-li"><a href="../menu_files/HOD's desk.php" class="icon-link link-hover w-100">HOD's Desk</a></div>
                         </div>

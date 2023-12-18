@@ -16,7 +16,7 @@
          ?>
     <!--End php header file included-->
       
-<div class="container shadow-lg">
+<div class="container  ">
   <!--Acadmic Excellance of MGM Name of the collages-->
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">

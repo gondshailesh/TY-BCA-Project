@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="img/logo-g.png" />
   </head>
-  <body>
+  <body  class="">
     <div class="container-fluid">
 
       <div class="">
@@ -81,7 +81,7 @@
                           <div class="hov-li"><a href="menu_files/About mgm.php" class="icon-link link-hover w-100">About MGM</a></div><hr>
                           <div class="hov-li"><a href="menu_files/vision&mission.php" class="icon-link link-hover w-100">Vision & Mission</a></div><hr>
                           <div class="hov-li"><a href="menu_files/founder and managment.php" class="icon-link link-hover w-100">Founder & Management</a></div><hr>
-                          <div class="hov-li"><a href="menu_files/acadmic excellnce.php" class="icon-link link-hover w-100">Academic Excellence</a></div><hr>
+                          <div class="hov-li"><a href="menu_files/acadmic excellnce.php" class="icon-link link-hover w-100">Academic Excellence</a></div>
                         </div>
                       </div>
                     </div>
@@ -240,28 +240,28 @@
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/sldr1.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 1">
+            <img src="img/sldr1.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 1">
           </div>
           <div class="carousel-item">
-            <img src="img/sldr2.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 2">
+            <img src="img/sldr2.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 2">
           </div>
           <div class="carousel-item">
-            <img src="img/sldr3.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 3">
+            <img src="img/sldr3.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 3">
           </div>
           <div class="carousel-item">
-            <img src="img/sldr4.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 4">
+            <img src="img/sldr4.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 4">
           </div>
           <div class="carousel-item">
-            <img src="img/sldr5.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 5">
+            <img src="img/sldr5.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 5">
           </div>
           <div class="carousel-item">
-            <img src="img/sldr6.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 6">
+            <img src="img/sldr6.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 6">
           </div>
           <div class="carousel-item">
-            <img src="img/sldr7.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 7">
+            <img src="img/sldr7.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 7">
           </div>
           <div class="carousel-item">
-            <img src="img/sldr8.jpg" class="d-block w-100 rounded-2 shadow-lg" alt="slider 8">
+            <img src="img/sldr8.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 8">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -277,8 +277,8 @@
       <!-- end slider of MGM -->
       
       <!-- Har Ghar Tiranga -->
-      <div class="container mt-2">
-        <img src="img/har-ghar-tiranga-web-banner-download-section.jpg" class="img-fluid shadow-lg rounded-2 w-100" alt="">
+      <div class="container ">
+        <img src="img/har-ghar-tiranga-web-banner-download-section.jpg" class="img-fluid    rounded-2 w-100" alt="">
       </div>
       <!--  End Har Ghar Tiranga -->
        <!--link tender-->
@@ -294,12 +294,12 @@
        <!--welcome to MGM-->
        <section class="mt-4 container" >
         <div class="row justify-content-center gap-4">
-          <div class="col-lg-7 shadow-lg rounded-2">
+          <div class="col-lg-7  shadow-sm animate  ">
             <p class="p-3"> &nbsp; Mahatma Gandhi Mission's College of Computer Science and Information Technology is located at Nanded, a district place in Maharashtra. The College established in the year 2000. It is approved by Government of Maharashtra and is affiliated to Swami Ramanand Teerth Marathwada University, Nanded. Nanded city is well connected by road and rail to all-important cities in India. It has unique historical importance of being the place of Court and Congregation of 10th Guru of Sikhs Shri Guru Gobind Singhji. Pilgrims all over the world visits Nanded.</p>
           </div>
           <!--End welcome to MGM-->
           <!-- Online Payment -->
-          <div class="col-lg-4 shadow-lg rounded-2">
+          <div class="col-lg-4  shadow-sm animate rounded-2">
             <a href="doc/Final prospectus 2019-20.pdf"><img src="img/new.gif" class="mt-3" alt=""> <p>Download Brouchre</p></a>
             <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"><center><img src="img/onlinefees.gif" class="img-fluid" alt=""></a></center>
           </div>
@@ -311,10 +311,10 @@
         <!--Leaflet and no ragging part-->
        <article class="container">
        <div class="leaflet row justify-content-center gap-4 ">
-        <div class="y-img mt-4 shadow-lg col-sm-12 col-lg-7">
+        <div class="y-img mt-4  shadow-sm animate col-sm-12 col-lg-7  ">
           <img src="img/leflet.jpg" class="img-fluid w-100 " width="100%" alt="">
           </div>
-        <div class="mt- shadow-lg col-sm-12 col-lg-4 mt-4 rounded-2 ragg">
+        <div class="shadow-sm animate col-sm-12 col-lg-4 mt-4">
           <center><img src="img/Say-no-to-Ragging.gif" height="20%" width="40%"  class="img-fluid" alt=""></center>
           <p class="p-3">
             <center><strong>Say No to Ragging</strong></center>
@@ -329,7 +329,7 @@
         <!--About collage section-->
         <div class="container">
           <div class="row m-2 gap-4 mt-3 justify-content-center"> 
-          <div class="col-lg-6 col-md-12 col-sm-12 shadow-lg rounded-2">
+          <div class="col-lg-6 col-md-12 col-sm-12  shadow-sm animate">
             <div class="">
             <div class=""><center><img src="img/mgm .jpg" class=" mt-4 img-fluid" width="500" height="250" alt=""></center></div>
               <p class="p-3">
@@ -338,7 +338,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-5 col-md-12 col-sm-12 shadow-lg rounded-2">
+          <div class="col-lg-5 col-md-12 col-sm-12  shadow-sm animate">
             <p class="p-3 mt-2 ">
               <center><strong>Our Alumni Speaks</strong></center>
             <i class="">"The college is having good infrastructure and Faculty. The Environament of college is good and healthy. I got a strong support from my college. I felt lucky that i was a part of MGMCCSIT".</i><br>
@@ -346,7 +346,7 @@
             </p>
             <div>
               <center>
-                <a href="https://www.facebook.com/Mgmccsitned"><button class="btn btn-outline-primary mb-3"> Follow Us On Facebook</button></a>
+                <a href="https://www.facebook.com/Mgmccsitned"><button class="btn btn-outline-info mb-3"> Follow Us On Facebook</button></a>
               </center>
              <!-- carasoul item of success stories-->
              <center><strong style="color: rgb(88, 189, 0);">*Success Stories*</strong></center>

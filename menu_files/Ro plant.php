@@ -21,14 +21,14 @@
       <strong><center><p class="mt-3 mb-3">Reverse Osmosis Unit</p></center></strong>
       <div class="row"> 
         <div class=" col-lg-6 col-sm-12">
-          <img src="../img/ro system1.jpg" class="shadow-lg img-fluid mt-2 rounded-2" alt="">
+          <img src="../img/ro system1.jpg" class="   shadow-sm img-fluid mt-2    " alt="">
         </div>
         <div class="col-lg-6 col-sm-12">
-          <img src="../img/ro system2.jpg" class="shadow-lg img-fluid mt-2 rounded-2 " alt="">
+          <img src="../img/ro system2.jpg" class="   shadow-sm img-fluid mt-2     " alt="">
         </div>
       </div>
       <div class="row">
-        <p class="mt-4 shadow-lg rounded-2 p-3">
+        <p class="mt-4    shadow-sm     p-3">
           Water is an essential element for the development and sustainability of life on earth and this fundamental unit should preserved in its purified form for all creatures. Man made pollution and some natural pollutants decreases the purity of this life saving gift. For this college provides a system which removes all the pollutants from the water by the reverse osmosis way. This R.O. unit not only removes the pollutants but also it removes the pathogens from the water.</p> </div>
     </div>
 

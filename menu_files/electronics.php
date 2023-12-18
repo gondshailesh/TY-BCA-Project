@@ -18,14 +18,14 @@
       
     <div class="container">
     <strong><center>Department of Electronics</center></strong>
-<center>    <img src="../img/Electronics.jpg" class="img-fluid w-100 rounded-2 shadow-lg" alt="Electronics"></center>
+<center>    <img src="../img/Electronics.jpg" class="img-fluid w-100        shadow-sm" alt="Electronics"></center>
     <div class="row mt-4 justify-content-between">
-      <div class="col-lg-4 mt-4 rounded-2 shadow-lg">
+      <div class="col-lg-4 mt-4        shadow-sm">
         <p>
           With rapid developments in Telecommunications, VLSI and Embedded System Application, Medical Electronics, Consumer Electronics, Power Electronics, Instrumentation and Control, electronics field is offering challenging carrier opportunities to electronics professionals in all walks of human life. Thus, these rapid developments in electronics technology is providing, the electronics professionals high demand in the field of research, development and industries.
         </p>
       </div>
-      <div class="col-lg-7 mt-4 rounded-2 shadow-lg">
+      <div class="col-lg-7 mt-4        shadow-sm">
         <strong>Special Features :</strong>
         <ol type="1">
           <li>Optoelectronics lab with He-Ne and semiconductor lasers.</li>

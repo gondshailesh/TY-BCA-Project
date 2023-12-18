@@ -16,7 +16,7 @@
          ?>
     <!--End php header file included-->
       
-<div class="container shadow-lg">   
+<div class="container">   
     <center>
          <strong>
             About MGM
@@ -24,13 +24,13 @@
     </center>
     <!--Image of mahatma gandhi  and some content-->
     <div class="row">
-        <div class="img-fluid col-sm-12 col-lg-6 rounded-2 ">            
+        <div class="img-fluid col-sm-12 col-lg-6   ">            
             <center>
-                            <img src="../img/mahatma gandhi image_jpg (30).jpg" class="shadow-lg rounded-2 mt-2" alt="">
+                            <img src="../img/mahatma gandhi image_jpg (30).jpg" class="shadow-sm   mt-2" alt="">
 
             </center>
         </div>
-        <div class="col-sm-12 col-lg-5 mt-4 shadow-lg rounded-2 me-1 p-4">
+        <div class="col-sm-12 col-lg-5 mt-4 shadow-sm   me-1 p-4">
              <p>
             Students from all walks of life across the country are able to learn and get educated in more than 50 Institutions run by the Trust across its 5 centers in India.
             Dedication to social service has also been another important objective of MGM Trust and keeping in line with the same, the Trust has been advocating rural education. It has also been a frontrunner in realizing and imbibing the importance of environment. Infact, MGM Trust has developed an entire park known as the Priyadarshini Udyan in Aurangabad. Efforts for GREEN AURANGABAD have been lauded by the United Nations and the Trust Secretary, Mr. Ankushrao Kadam has also been awarded and felicitated by the UN for the Environment Friendly Approach.
@@ -46,7 +46,7 @@
             <center><p class="mt-4">Achivments</p></center>
     </strong>
     <div class="container  mt-2"> 
-         <div class=" shadow-lg  rounded-2">
+         <div class=" shadow-sm   ">
             <ul class="p-2 mrgn">
                 <li class="">MGM has established AIDS Research Centre in collaboration with Texas University, USA,with all latest equipments for diagnosis, treatment and research. It also has academic linkages with ICMR and AIIMS, New Delhi.</li>
                 <li class="">MGM offers distance education programs in collaboration with IIT, Mumbai, wherein online interactive lectures of experts from IIT are arranged through satellite linkage.</li>
@@ -67,7 +67,7 @@
     <strong>
             <center><p class="mt-4">Medical Education</p></center>
     </strong>
-    <div class="mt-4 shadow-lg rounded-2 justify-content-center p-4">
+    <div class="mt-4 shadow-sm   justify-content-center p-4">
         
              <p> Medical colleges have state of the art facilities, for under-graduate and post-graduate facility with exclusive health care services like emergency management system, fertility and test-tube baby center, advanced endoscopy and laproscopy eye-care center.</p>
              <p>More than 60,000 people from tribal and rural areas of Marathwada have been treated free of cost.</p>  
@@ -87,7 +87,7 @@
                     <p class="mt-4">Environment</p>
                 </center>
             </strong>
-                <div class="mt-4 shadow-lg rounded-2 justify-content-center p-4">
+                <div class="mt-4 shadow-sm   justify-content-center p-4">
                     <p>Environment remains a key issue of concern of all campuses of MGM. The greenery maintained speaks about it. Shri A.N.Kadam, Secretary, Mahatma Gandhi Mission, has been awarded international environment award by world environmental congress at the hands of Ex-President Late Dr. Shankar Dayal Sharma in 1997.</p>
                 </div>
         </div>
@@ -97,7 +97,7 @@
             <p class="mt-4">Certificates</p>
         </center>
     </strong>
-    <div class="mt-4 shadow-lg rounded-2 justify-content-center p-4">
+    <div class="mt-4 shadow-sm   justify-content-center p-4">
         <p>
             The MGM Trust Office and many other institutions under it have been certified with ISO 9001:2000
             MGM’s Fine Art Academy – MAHAGAMI – has been awarded UNESCO Membership.

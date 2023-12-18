@@ -18,11 +18,11 @@
 
     <div class="container">
       <strong><center><p class="mt-3">Biotechnology and Bioinformatic</p></center></strong>
-      <center><img src="../img/biotechnology.jpg" class="img-fluid w-100 rounded-2 " alt="biotechnology"></center>
+      <center><img src="../img/biotechnology.jpg" class="img-fluid w-100     " alt="biotechnology"></center>
 
       <div class="row justify-content-between mt-3">
         <div class="col-lg-3">
-          <div class="shadow-lg p-3 rounded-2 mt-3">
+          <div class="   shadow-sm p-3     mt-3">
             <p>
              "Biotechnology means the application of science and technology to living organisms as well as parts, products to alter living or nonliving materials for the production of knowledge, goods and services."
           </p>
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="shadow-lg p-3 rounded-2 mt-3">
+          <div class="   shadow-sm p-3     mt-3">
             <p>
             The Biotechnology can help students to find entry-level employment in biotech companies, healthcare, pharmaceuticals, and agriculture based industries, food, beverages industries, environment and energy sector. Additional jobs are in research and development, production, quality control, management, marketing, contract research, academics and entrepreneurship
           </p>
@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="col-lg-5">
-          <div class="shadow-lg p-3 rounded-2 mt-3">
+          <div class="   shadow-sm p-3     mt-3">
             <p>
             Bioinformatics is the science concerned with the development and application of computer hardware and software to the acquisition, storage, analysis, visualization and application of biological information. Bioinformatics is the future technology, it is the merger of Biotechnology and Information technology the two leading technologies of the century. Genomics, Proteomics, Molecular Modeling, Structure Prediction, Structure Based Drug Designing; Data mining are some of the core areas of Bioinformatics.
           </p>
@@ -52,7 +52,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-3 p-3 row shadow-lg rounded-2">
+      <div class="mt-3 p-3 row    shadow-sm    ">
         <strong>Special Features :</strong>
         <ol type="1">
           <li>Laboratories are fully equipped with all basic and advanced infrastructures.</li>

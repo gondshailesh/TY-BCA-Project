@@ -20,7 +20,7 @@
     <!--course offered by MGM-->
     <div class="container">
       <div class="row gap-2 ">
-        <div class="col-lg-4 col-sm-12 p-3 mt-3 shadow-lg rounded-2">
+        <div class="col-lg-4 col-sm-12 p-3 mt-3    shadow-sm    ">
           <p>
             Bachelor of Computer Science (B.Sc-CS) is a 3 years under-graduate course with a specialization in the domain of computer science, software and hardware related aspects. The course is a bachelor’s level program in the area of computer science which encompasses important areas like programming, software, hardware, and networks under its ambit. The motive of the course is to provide students sufficient knowledge and skills that would be effective enough to help them channelize their learning in a practical sense.
           </p>
@@ -66,14 +66,14 @@
 
 <!--Biotechnology course-->
 <div class="mt-3"><center><strong><p>Biotechnology & Bioinformatics Courses</p></strong></center></div>
-      <div class="row p-3 mt-3 rounded-2">
+      <div class="row p-3 mt-3    ">
         
         <div class="col-lg-6 col-sm-12 ">
          <div class="row gap-4">
-           <div class="col-lg-6 col-sm-12  p-3 mt-3 shadow-lg rounded-2">
+           <div class="col-lg-6 col-sm-12  p-3 mt-3    shadow-sm    ">
             <p>B.Sc. in Biotechnology is a 3- year undergraduate course, involving an advanced study of the cellular and bimolecular processes for development of a variety of technologies and products that contribute to improving people’s lives and health.</p>
           </div>
-          <div class="col-lg-5 col-sm-12  p-3 mt-3 shadow-lg rounded-2">
+          <div class="col-lg-5 col-sm-12  p-3 mt-3    shadow-sm    ">
             <p>
               The course Bioinformatics is a combination of Biology, Computer Science, and Information Technology. It focuses on the information analysis and management in biotechnology.
             </p>
@@ -126,7 +126,7 @@
       </div>
       <div class="mt-3"><center><strong><p>Electronics Course</p></strong></center></div>
       <div class="row gap-3">
-        <div class="col-lg-4 col-sm-12 mt-3 shadow-lg rounded-2">
+        <div class="col-lg-4 col-sm-12 mt-3    shadow-sm    ">
           <p>
             M.Sc. Electronic Science is a postgraduate course in Electronic Science. It is a branch that deals with electrical circuit that involves active electrical components like transistors, vacuum tubes, diodes, integrated circuits and associated passive interconnection technologies.
           </p>

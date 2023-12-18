@@ -20,19 +20,19 @@
       <strong><center>Cultural Activities</center></strong>
       <center><img src="../img/Zankar2014.jpg" class="img-fluid" height="500" width="600" alt=""></center>
       <div class="row justify-content-between">
-        <div class="col-lg-7 col-sm-12 mt-2  shadow-lg rounded-2 p-3">
+        <div class="col-lg-7 col-sm-12 mt-2     shadow-sm     p-3">
           <p>
           Our students also take part in inter collegiate youth festival in every academic year it was held in Youth Festival  Vasundahra-2017 organized at Gramin Engineering College, Vishnupuri Nanded. Our student achived two Bronze medals in  group activities ‘Jalsa’ & ‘Powada’, One Silver Medal in 'Skit'.
         In year 2016 our students have achieved success in University Youth Festival held at Matoshri College Nanded 2016. Our student achieved two Bronze medals in  group activities ‘LOK NRUTYA’ & ‘Installation’ and One Silver medal in Samuh Gayan Bhartiya.
         </p>
         </div>
-      <div class="col-lg-4 col-sm-12 mt-2 shadow-lg rounded-2 p-3">
+      <div class="col-lg-4 col-sm-12 mt-2    shadow-sm     p-3">
         <p>
           In the year 2015 our students have achieved success in University Youth Festival held at Sahyog College Nanded 2015. Our student achived two Bronze medals in  group activities ‘LOK NRUTYA’ & ‘Samuh Gayan Bhartiya’.
         </p>
       </div>
       </div>
-      <div class=" mt-4 table-responsive-lg table-responsive-sm table-responsive-md shadow-lg  text-center">
+      <div class=" mt-4 table-responsive-lg table-responsive-sm table-responsive-md    shadow-sm  text-center">
         <!--Youth Festival Vilas-2019 Winners-->
         <table class="table table-bordered border-warning table-responsive-lg table-responsive-md table-responsive-sm text-center">
           <thead>

@@ -21,7 +21,7 @@
       
    
     <div class="row justify-content-between mt-4">
-      <div class="col-sm-12  col-lg-6 shadow-lg mt-2 p-3 rounded-2 ">
+      <div class="col-sm-12  col-lg-6    shadow-sm mt-2 p-3     ">
       <p>
         In the modern era of Information technology, Tech Expo aims to provide knowledge about IT & related technologies right from evolution of various computer technologies over last few decades & knowledge related with Android Projects, different programing languages,hardware components..
       </p>
@@ -32,7 +32,7 @@
         TechExpo is the paramount event organised by the MGM college to enhance the special skills of student so that they could get good exposure, knowledge about the subject and recent updates. TechExpo not only gives information to students in different dimensions but also it gives 360 degree learning skills to students. TechExpo is an excellent medium of delivering information to the students.
       </p>
     </div>
-    <div class="col-sm-12 col-lg-5 shadow-lg mt-2 p-3 rounded-2">
+    <div class="col-sm-12 col-lg-5    shadow-sm mt-2 p-3    ">
       <strong>FEATURES OF TECH EXPO 2020:--</strong>
       <p>
         <strong>HardExpo :</strong>
@@ -45,7 +45,7 @@
     </div>
     </div>
     <div class="row mt-4 justify-content-between">
-      <div class="col-lg-4 col-sm-12 mt-2 shadow-lg p-3 rounded-2">
+      <div class="col-lg-4 col-sm-12 mt-2    shadow-sm p-3    ">
         <p>
           <strong>Visual expo:-</strong>
         </p>
@@ -56,7 +56,7 @@
           This is said to help in the acceptance of a robot in certain replicative behaviors usually performed by people. Such robots attempt to replicate walking, lifting, speech, cognition, and basically anything a human can do. Many of today's robots are inspired by nature, contributing to the field of bio-inspired robotics. Various Robos developed by our Students were demonstrated.
         </p>
       </div>
-      <div class="col-lg-7 col-sm-12 mt-2 shadow-lg p-3 rounded-2">
+      <div class="col-lg-7 col-sm-12 mt-2    shadow-sm p-3    ">
 <center>
   <div class="res_table">
     <table class="table table-bordered border-warning  table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xxl table-responsive-xl text-center">
@@ -115,7 +115,7 @@
 </center>
       </div>
     </div>
-    <div class="container-fluid mt-2 shadow-lg p-3 rounded-2 res_table">
+    <div class="container-fluid mt-2    shadow-sm p-3     res_table">
       <table class="table table-bordered border-warning table-responsive-lg table-responsive-sm text-center">
         <thead>
           <tr>

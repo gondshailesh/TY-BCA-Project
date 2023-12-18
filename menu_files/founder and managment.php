@@ -32,7 +32,7 @@
         
     </div>
     <div class="row justify-content-between">
-       <div class="col-lg-6  shadow-lg  mt-5 rounded-2 p-3">
+       <div class="col-lg-6     shadow-sm  mt-5     p-3">
             Shri. Kamalkishor Kadam, Chairman, MGM Group of Institutions, is milestone for MGM Trust. He has complete control on the trust activities. He is a man with strong business acumen and a flair for construction with high aesthetic value, because of his efforts and keen interest, the Mahatma Gandhi Mission have received wide applause, and further, because of his zeal, the MGM has reached to the present heights.
             <div>
               <p>
@@ -41,7 +41,7 @@
             </div>
        </div>
 
-       <div class="col-lg-5 shadow-lg mt-5 rounded-2 p-3">
+       <div class="col-lg-5    shadow-sm mt-5     p-3">
         <strong>Details of positions held by Mr Kadam are as under :</strong>
         <P>* Former Chairman of the Purna Sahakari Sakhar Karkhana Ltd.</P>
         <P>* Former Dy. Speaker, Legislative Assembly Maharashtra State.</P>

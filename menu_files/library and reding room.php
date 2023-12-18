@@ -26,12 +26,12 @@
       
       <div class="row">
         <div class="col-lg-6 col-sm-12 ">
-         <p class="p-3 shadow-lg mt-3">
+         <p class="p-3    shadow-sm mt-3">
           The College library is the main source of information for the UG & PG students. Library holding a good quality collection of Textbooks, Referance books, periodicals,CD ROM, Conference Proceeding, Bound Volumes of International journals as well as extensive collection of Competitive Exams & Personality Development books. The Library is computerised, it provides web based catalogue services & adopted Barcode Technology.  
          </p>   
         </div>
         <div class="col-lg-6 col-sm-12 ">
-        <p class="p-3 shadow-lg mt-3">
+        <p class="p-3    shadow-sm mt-3">
           The College library is the main source of information for the UG & PG students. Library holding a good quality collection of Textbooks, Referance books, periodicals,CD ROM, Conference Proceeding, Bound Volumes of International journals as well as extensive collection of Competitive Exams & Personality Development books. The Library is computerised, it provides web based catalogue services & adopted Barcode Technology.
         </p>       
         </div>
@@ -40,7 +40,7 @@
         <!--Library time table-->
       <div  class="">
         <div class="col-lg-12 col-sm-12">
-        <table class="table mt-4 table-bordered border-warning shadow-lg text-center table-responsive table-responsive-lg table-responsive-md table-responsive-sm">
+        <table class="table mt-4 table-bordered border-warning    shadow-sm text-center table-responsive table-responsive-lg table-responsive-md table-responsive-sm">
           <thead>
             <tr>
               <th colspan="2">
@@ -71,7 +71,7 @@
 
 
         <div class="col-lg-12 col-sm-12">
-        <table class="table mt-4 table-bordered border-warning shadow-lg text-center table-responsive table-responsive-lg table-responsive-md table-responsive-sm">
+        <table class="table mt-4 table-bordered border-warning    shadow-sm text-center table-responsive table-responsive-lg table-responsive-md table-responsive-sm">
           <thead>
             <tr>
               <th colspan="2">
@@ -128,7 +128,7 @@
 
       <div class="row">
         <div class="col-lg-5">
-          <table class="table mt-4 table-bordered border-warning shadow-lg text-center table-responsive table-responsive-lg table-responsive-md table-responsive-sm">
+          <table class="table mt-4 table-bordered border-warning    shadow-sm text-center table-responsive table-responsive-lg table-responsive-md table-responsive-sm">
           <thead>
             <tr>
               <th colspan="2">
@@ -166,7 +166,7 @@
         </table>
         </div>
       
-      <div class="mt-4 rounded-2 shadow-lg p-3 col-lg-7">
+      <div class="mt-4        shadow-sm p-3 col-lg-7">
         <strong><center>
           Special Features
         </center></strong>

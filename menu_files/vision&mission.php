@@ -18,15 +18,15 @@
       
     <!--mission and vision part-->
     <div class="">
-      <div class="container shadow-lg">
+      <div class="container    shadow-sm">
         <center><strong>Vision & Mission</strong></center>
         <div class="row justify-content-between">
-          <div class="col-lg-5 col-md-6 col-sm-12 p-3 mt-5 rounded-2 shadow-lg">
+          <div class="col-lg-5 col-md-6 col-sm-12 p-3 mt-5        shadow-sm">
             <i>
               Mission- "To impart state of art education and technical expertise to students and give necessary training to teachers to create self reliant society for future."
             </i>
           </div>
-          <div class="col-lg-5 col-md-6 col-sm-12 p-3  mt-5 rounded-2 shadow-lg">
+          <div class="col-lg-5 col-md-6 col-sm-12 p-3  mt-5        shadow-sm">
             <i>
               Vision-"To ensure sustainable human development which encourages self reliant and self content society and to promote activities related to community services and social welfare."
             </i>
@@ -37,13 +37,13 @@
       <!--trustees of MGM-->
       
         <center>
-          <center><img src="../img/kadam sir.png" class=" card card-img-top img-fluid w-auto h-auto shadow-lg mt-5"  alt="kadam sir.png"></center>
+          <center><img src="../img/kadam sir.png" class=" card card-img-top img-fluid w-auto h-auto    shadow-sm mt-5"  alt="kadam sir.png"></center>
           <div class="card-body">
             <h5 class="card-title pb-4 mt-4">Shri. Kamal Kishore Kadam Chairman,MGM Trust</h5>
           </div>
         </center>
       </div>
-<div class="container rounded-2 shadow-lg">
+<div class="container        shadow-sm">
       <div class=" mt-2 ">
           <div class=" row">
             <div class="row mt-3 justify-content-between">

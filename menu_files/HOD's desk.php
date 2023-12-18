@@ -28,12 +28,12 @@
           <a class="nav-link" aria-current="page" href="HOD's  ET.php"><strong>Mr. Gaherwar Arjun singh</strong></a>
         </li>
       </ul>
-    <center><img src="../img/Nandekar_Mam.jpg" class="img-fluid shadow-lg" height="350" width="450" alt="Nandedkar"></center>
+    <center><img src="../img/Nandekar_Mam.jpg" class="img-fluid    shadow-sm" height="350" width="450" alt="Nandedkar"></center>
     <center>
         <strong><p class="mt-2">Dr. Mrs. Nandedkar K.A</p></strong>
         <strong><p>Vice Principal, Head Of Department of Comp. Sci. & IT</p></strong>
     </center>
-    <div class=" shadow-lg rounded-2 mt-2 p-3">
+    <div class="    shadow-sm     mt-2 p-3">
       <p>
           Department of CS & IT striving hard to impart basic and advance knowledge required for present and future to ensure that these students will stand worthy for different kinds of job opportunites. Computer knowledge is not restricted to the science students; rather students of Arts, Commerce and MCVC are also having good opportunities to make their careers in computers. The BCA (Bachelor of Computer Application) course which is basically designed for them provides equal opportunities as like engineering and science students to get good jobs. Computer and IT is the leading industry that provides more jobs and opportunities with luxuries and high salaries in India as well as in abroad.
       </p>

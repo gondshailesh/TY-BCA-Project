@@ -18,8 +18,9 @@ height: 900px;!important
 }
 .hov-li
 {
-  list-style-type: none;!important
+  list-style-type: none !important;
   text-decoration: none;
+  font-size: small;
   
 }
 
@@ -61,9 +62,17 @@ text-align: center;
 .y-img
 {
   overflow-y: scroll; 
-  height: 380px;
+  height: 410px;
 }
-
-.leaflet{
-
+/*css of zooming animation */
+.animate{
+  background: white;
+}
+.animate:hover{
+  background-color: #b3e3ff4d;
+animation: calc();
+}
+.col-lg-5.col-md-12.col-sm-12.shadow-sm.animate{
+  height: 560px;
+  background: #b3e3ff4d;
 }

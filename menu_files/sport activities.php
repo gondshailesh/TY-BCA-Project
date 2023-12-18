@@ -20,38 +20,38 @@
       <strong><center><p class="mt-2">Sport Activities</p></center></strong>
       <div class="row justify-content-between">
         <div class="col-lg-5">
-          <p class=" col-sm-12 mt-2 shadow-lg rounded-2 p-3">Sports play a crucial role in schools and colleges. Participation in various sports activities enables the students to develop their competence level. They also learn the sense of co-operation and co-ordination and also prepare themselves for increasing competition in future life. Likewise various sports activities were conducted in the academic year 2021-2019. The college encourages and extend all sorts of help to students to participate in collage ICT and IUT sports.</p>
+          <p class=" col-sm-12 mt-2    shadow-sm     p-3">Sports play a crucial role in schools and colleges. Participation in various sports activities enables the students to develop their competence level. They also learn the sense of co-operation and co-ordination and also prepare themselves for increasing competition in future life. Likewise various sports activities were conducted in the academic year 2021-2019. The college encourages and extend all sorts of help to students to participate in collage ICT and IUT sports.</p>
         </div>
         <div class="col-lg-7">
-          <p class=" col-sm-12 mt-2 shadow-lg rounded-2 p-3">
+          <p class=" col-sm-12 mt-2    shadow-sm     p-3">
             Every effort has been taken to strengthen sports the activities of students. Sports, recreation and cultural life,for promoting the organizational and leadership skills of students and simultaneously imbibing them with a sense responsibility towards the society. College sponsors various association managed by the students of the institution. Every effort has been taken to strengthen sports activity inside the campus and making the students participate in inter collegiate and inter university sports meets.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-sm-12">
-          <img src="../img/sports_2019.jpg" class="img-fluid m-2 rounded-2 shadow-lg" alt="sports_2019">
+          <img src="../img/sports_2019.jpg" class="img-fluid m-2        shadow-sm" alt="sports_2019">
         </div>
         <div class="col-lg-5 col-sm-12">
-          <img src="../img/sports_20.jpg"   class="img-fluid m-2 rounded-2 shadow-lg" alt="sports_20">
+          <img src="../img/sports_20.jpg"   class="img-fluid m-2        shadow-sm" alt="sports_20">
         </div>
       </div>
       </div>
         <div class="row">
         <div class="col-lg-6 col-sm-12">
-          <img src="../img/sports_201.jpg" class="img-fluid m-2 rounded-2 shadow-lg" alt="sports_201">
+          <img src="../img/sports_201.jpg" class="img-fluid m-2        shadow-sm" alt="sports_201">
         </div>
         <div class="col-lg-5 col-sm-12">
-          <img src="../img/sports_202.jpg" class="img-fluid m-2 rounded-2 shadow-lg" alt="sports_202">
+          <img src="../img/sports_202.jpg" class="img-fluid m-2        shadow-sm" alt="sports_202">
         </div>
         </div>
         <div class="row">
 
         <div class="col-lg-5 col-sm-12">
-          <img src="../img/sports_203.jpg" class="img-fluid m-2 rounded-2 shadow-lg" alt="sports_203">
+          <img src="../img/sports_203.jpg" class="img-fluid m-2        shadow-sm" alt="sports_203">
         </div>
         <div class="col-lg-6 col-sm-12">
-          <img src="../img/sports_204.jpg" class="img-fluid m-2 rounded-2 shadow-lg" alt="sports_204">
+          <img src="../img/sports_204.jpg" class="img-fluid m-2        shadow-sm" alt="sports_204">
         </div>
       </div>
       <!-- Sports Achievements 2019-20-->
