@@ -283,9 +283,9 @@
       <!--  End Har Ghar Tiranga -->
        <!--link tender-->
        <div class="container-fluid brandingbg mt-4 pb-4">
-        <center class="" style="background-color:rgb(194, 240, 255);">
+        <center class="tenderbar" style="background-color:rgb(194, 240, 255); padding-top:10px;">
           <strong >
-            Click here to download tender 2021-2022 <a href="d">Form</a>
+            Click here to download tender 2021-2022 <a href="doc\MGM_Tender.pdf">Form</a>
           </strong>
         </center>
        </div>
@@ -301,7 +301,7 @@
           <!-- Online Payment -->
           <div class="col-lg-4  shadow-sm animate rounded-2">
             <a href="doc/Final prospectus 2019-20.pdf"><img src="img/new.gif" class="mt-3" alt=""> <p>Download Brouchre</p></a>
-            <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"><center><img src="img/onlinefees.gif" class="img-fluid" alt=""></a></center>
+            <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"><center><button class="btn btn-outline-success mb-4">ONLINE FEES PAYMENT</button></a></center>
           </div>
         </div>
        </section>     
@@ -346,7 +346,7 @@
             </p>
             <div>
               <center>
-                <a href="https://www.facebook.com/Mgmccsitned"><button class="btn btn-outline-info mb-3"> Follow Us On Facebook</button></a>
+                <a href="https://www.facebook.com/Mgmccsitned"><button class="btn btn-outline-warning mb-3"> Follow Us On Facebook</button></a>
               </center>
              <!-- carasoul item of success stories-->
              <center><strong style="color: rgb(88, 189, 0);">*Success Stories*</strong></center>
