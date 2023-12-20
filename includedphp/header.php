@@ -1,176 +1,131 @@
       <!--logo and name of college-->
       <center>
         <div class="container-fluid mhead">
-          <img src="../img/logo-g.png" alt="mgmlogo" />
+          <img src="https://www.mgmccsit.ac.in/img/logo-g.png" alt="mgmlogo">
           <h3>Mahatma Gandhi Missions's</h3>
           <h2>COLLEGE OF COMPUTER SCIENCE & INFORMATION TECHONOLOGY</h2>
-          <strong
-            >Affiliated to Swami Ramanand Teerth Marathwada University, Nanded,
-            India</strong
-          >
+          <strong>
+            Affiliated to Swami Ramanand Teerth Marathwada University, Nanded,India
+          </strong>
         </div>
       </center>
       <!-- End logo and name of college-->
       <!-- Header ofcanvas-->
-      <div>
-        <nav class="navbar bg-info">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.php">HOME</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="../index.php">HOME</a></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">                    
-                  </ul>
-                  <form class="d-flex mt-3">
-                    <div class="accordion accordion-flush w-100" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          MGM
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/About mgm.php" class="icon-link link-hover w-100">About MGM</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/vision&mission.php" class="icon-link link-hover w-100">Vision & Mission</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/founder and managment.php" class="icon-link link-hover w-100">Founder & Management</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/acadmic excellnce.php" class="icon-link link-hover w-100">Academic Excellence</a></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                          About Us
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/About college.php" class="icon-link link-hover w-100">About College</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/chairman's message.php" class="icon-link link-hover w-100">Chairman's Message</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/Director's message.php" class="icon-link link-hover w-100">Director's Message</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/Principal's desk.php" class="icon-link link-hover w-100">Principal's Desk</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/HOD's desk.php" class="icon-link link-hover w-100">HOD's Desk</a></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Academics
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/course offered.php" class="icon-link link-hover w-100">Course Offered</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/Admission and Fees structure.php" class="icon-link link-hover w-100">Admission and Fee Structure</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/Acadmic calender.php" class="icon-link link-hover w-100">Academic Calender</a></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Departments
-                        </button>
-                      </h2>
-                      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/computer science and it.php" class="icon-link link-hover w-100">Computer Science & IT</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/Biotechnology and bio informatics.php" class="icon-link link-hover w-100">Biotechnology & Bioinformatics</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/electronics.php" class="icon-link link-hover w-100">Electronics</a></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Campus Life
-                        </button>
-                      </h2>
-                      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/arohan.php" class="icon-link link-hover w-100">Arohan</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/technical activities .php" class="icon-link link-hover w-100">Technical Activities</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/cultural activities.php" class="icon-link link-hover w-100">Cultural Activities</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/sport activities.php" class="icon-link link-hover w-100">Sport Activities</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/event and festivals.php" class="icon-link link-hover w-100">Event & Festivals</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/educational tour.php" class="icon-link link-hover w-100">Educational Tour</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/TEch-life.php" class="icon-link link-hover w-100">Tech Life</a></div>
-
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Facilities
-                        </button>
-                      </h2>
-                      <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/library and reding room.php" class="icon-link link-hover w-100">Library & Reading Room</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/scholarship.php" class="icon-link link-hover w-100">Scholarship</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/WiFi internet.php" class="icon-link link-hover w-100">WiFi Internet</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/water testing.php" class="icon-link link-hover w-100">Water Testing</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/cafearea.php" class="icon-link link-hover w-100">Cafteria</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/green and clean campus.php" class="icon-link link-hover w-100">Green & Clean Campus</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/Ro plant.php" class="icon-link link-hover w-100">RO plant</a></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                          Placements
-                        </button>
-                      </h2>
-                      <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/placement cell.php" class="icon-link link-hover w-100">Placement Cell</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/campus placement.php" class="icon-link link-hover w-100">Campus Placement</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/alumini.php" class="icon-link link-hover w-100">Alumni</a></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                          Achivements
-                        </button>
-                      </h2>
-                      <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/students achivements.php" class="icon-link link-hover w-100">Student's Achivements</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/teacher's achivements.php" class="icon-link link-hover w-100">Teacher's Achivements</a></div>
-                        </div>
-                      </div>
-                    </div>
-                     <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                          Staff
-                        </button>
-                      </h2>
-                      <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <div class="hov-li"><a href="../menu_files/teaching staff.php" class="icon-link link-hover w-100">Teaching Staff</a></div><hr>
-                          <div class="hov-li"><a href="../menu_files/non teaching staff.php" class="icon-link link-hover w-100">Non Teaching Staff</a></div><hr>
-                        </div>
-                      </div>
-                    </div>
-                    
-                  </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </nav>  
+  <nav class="navbar navbar-expand-lg bg-info mb-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.php">HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ABOUT MGM'S</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
+      <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MGM
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/About college.php">About MGM</a></li>
+              <li><a class="dropdown-item" href="../menu_files/vision&mission.php">Vision & Mission</a></li>
+              <li><a class="dropdown-item" href="../menu_files/founder and managment.php">Founder & Management</a></li>
+              <li><a class="dropdown-item" href="../menu_files/acadmic excellnce.php">Adademic Excellence</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/About college.php">About College</a></li>
+              <li><a class="dropdown-item" href="../menu_files/chairman's message.php">Chairman's Message</a></li>
+              <li><a class="dropdown-item" href="../menu_files/Director's message.php">Director's Message</a></li>
+              <li><a class="dropdown-item" href="../menu_files/Principal's desk.php">Principal's Desk</a></li>
+              <li><a class="dropdown-item" href="../menu_files/HOD's desk.php">HOD's Desk</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Acadmics
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/course offered.php">Courses Offered</a></li>
+              <li><a class="dropdown-item" href="../menu_files/Admission and Fees Structure">Admission and Free Structure</a></li>
+              <li><a class="dropdown-item" href="../menu_files/Acadmic calender.php">Academic Calender</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Departments
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/computer science and it.php">Computer Science & IT</a></li>
+              <li><a class="dropdown-item" href="../menu_files/Biotechnology and bio informatics.php">Biotechnology & Bioinformatics</a></li>
+              <li><a class="dropdown-item" href="../menu_files/electronics.php">Electronics</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Campus Life
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/arohan.php">Arohan</a></li>
+              <li><a class="dropdown-item" href="../menu_files/technical activities .php">Technical Activities</a></li>
+              <li><a class="dropdown-item" href="../menu_files/cultural activities.php">cultural Activities</a></li>
+              <li><a class="dropdown-item" href="../menu_files/sport activities.php">Sport Activities</a></li>
+              <li><a class="dropdown-item" href="../menu_files/event and festivals.php">EVent & Festivals</a></li>
+              <li><a class="dropdown-item" href="../menu_files/educational tour.php">Educational tour</a></li>
+              <li><a class="dropdown-item" href="../menu_files/TEch-life.php">Tech-Life</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Facilities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/library and reding room.php">Library & reding Room</a></li>
+              <li><a class="dropdown-item" href="../menu_files/scholarship.php">Scholarship</a></li>
+              <li><a class="dropdown-item" href="../menu_files/WIFI internet.php">WiFi Internet</a></li>
+              <li><a class="dropdown-item" href="../menu_files/water testing">Water Testing</a></li>
+              <li><a class="dropdown-item" href="../menu_files/cafearea.php">Cafteria</a></li>
+              <li><a class="dropdown-item" href="../menu_files/green and clean campus.php">Green & Clean Campus</a></li>
+              <li><a class="dropdown-item" href="../menu_files/Ro plant.php">RO Plant</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Placements
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/placement cell.php">Placement Cell</a></li>
+              <li><a class="dropdown-item" href="../menu_files/campus placement.php">Campus Placement</a></li>
+              <li><a class="dropdown-item" href="../menu_files/alumini.php">Alumini</a></li>              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Achivements
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/students achivements.php">Students' Achivments</a></li>
+              <li><a class="dropdown-item" href="../menu_files/teacher's achivments.php">Teacher's Achivements</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Staff
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../menu_files/teaching staff.php">Teaching Staff</a></li>
+              <li><a class="dropdown-item" href="../menu_files/non teaching staff.php">Non-Teaching Staff</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
       <!-- Header ofcanvas-->
