@@ -28,6 +28,17 @@
       <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6">
           <label for=""></label>
+          <input type="text" class="form-control"  placeholder="Student Full Name" required name="fname" autocomplete="off">
+        </div>
+        <div class="col-sm-12 col-lg-6 col-md-6">
+          <label for=""></label>
+          <input type="text" class="form-control" placeholder="Mother Name as par 12th marksheet" required autocomplete="off">
+        </div>
+      </div>
+      <!-- row 2 -->
+      <div class="row">
+        <div class="col-sm-12 col-lg-6 col-md-6">
+          <label for=""></label>
           <select class="form-select" aria-label="Default select example" required autocomplete="off"> 
         <option value="" selected>Select Course</option>       
         <option value="1">MCA(Master Of Computer Application)</option>
@@ -50,17 +61,7 @@
         </div>
       </div>
 
-      <!-- row 2 -->
-      <div class="row">
-        <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for=""></label>
-          <input type="text" class="form-control"  placeholder="Student Full Name" required name="fname" autocomplete="off">
-        </div>
-        <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for=""></label>
-          <input type="text" class="form-control" placeholder="Mother Name as par 12th marksheet" required autocomplete="off">
-        </div>
-      </div>
+      
           
       <!-- row 3 -->
          <div class="row">

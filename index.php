@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="animate/animate.css-main/animate.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="https://www.mgmccsit.ac.in/img/logo-g.png" />
   </head>
-  <body  class="">
+  <body  class="" style="background: rgb(221,237,249);
+background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 50%, rgba(221,237,255,1) 100%);">
     <div class="container-fluid">
 
       
@@ -49,11 +52,10 @@
       </center>
       <!-- End logo and name of college-->
            <!-- Header ofcanvas-->
-  <nav class="navbar navbar-expand-lg bg-info mb-2 mt-2">
-  <div class="container-fluid">
+  <nav class=" container shadow-sm navbar navbar-expand-lg bg-info mb-2 mt-2">
+  <div class="container">
     <span class="navbar-brand" >
 
-          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Online</button>
     </span>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -64,8 +66,11 @@
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-      <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-          <li class="nav-item dropdown">
+  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+      <li class="nav-item">
+      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
+    </li>    
+      <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               MGM
             </a>
@@ -170,7 +175,7 @@
   </div>
 </nav>
       <!-- Header ofcanvas-->
-      <div class="container-fluid bg-transparent text-end">
+      <div class="container bg-transparent text-end">
       <!--news and Event-->
       <marquee behavior="" class="mqnews" direction="left" onmouseover="this.stop(); "onmouseout="this.start();">
       <p>
@@ -190,8 +195,9 @@
       </p>
       </marquee>
      </div>
+     
       <!--slider of MGM -->
-      <div class="container">
+      <div class="container mb-3">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -236,27 +242,49 @@
         <img src="img/har-ghar-tiranga-web-banner-download-section.jpg" class="img-fluid    rounded-2 w-100" alt="">
       </div>
       <!--  End Har Ghar Tiranga -->
-       <!--link tender-->
-       <div class="container-fluid brandingbg mt-4 pb-4">
-        <center class="tenderbar" style="background-color:rgb(194, 240, 255); padding-top:10px;">
-          <strong >
-            Click here to download tender 2021-2022 <a href="doc\MGM_Tender.pdf">Form</a>
-          </strong>
-        </center>
-       </div>
-       <!--End link tender-->
+
+
+<center><hr style="width:80%;"></center>
+<center><strong class="h4">Companies for Placements</strong></center>
+      <center><hr size="" style="width:70%;"></center>
+
+     
+
+      <div class="container-fluid">
+      <div class="container center">
+          <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg" class="img-fluid mt-1" alt=""></center></div></div>
+          <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="https://mma.prnewswire.com/media/1794711/Cognizant_Logo.jpg?p=facebook" class="img-fluid" alt=""></center></div></div>
+          <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/600px-Infosys_logo.svg.png" alt="" class="img-fluid mt-1"></center></div></div>
+          <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="img/qspiders.png" alt="" class="img-fluid mt-1"></center></div></div>
+          <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="img/jio.png" alt="" class="img-fluid mt-3"></center></div></div>
+          <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="img/fable.png" alt="" class="img-fluid"></center></div></div>
+          <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="https://www.smartglobalgovernance.com/wp-content/uploads/Accenture-2.svg" alt="" class="img-fluid"></center></div></div>
+        </div>
+      </div>
+
+      
+
+
+
+      
 
        <!--welcome to MGM-->
-       <section class="mt-4 container" >
-        <div class="row justify-content-center gap-4">
-          <div class="col-lg-7  shadow-sm animate  ">
-            <p class="p-3"> &nbsp; Mahatma Gandhi Mission's College of Computer Science and Information Technology is located at Nanded, a district place in Maharashtra. The College established in the year 2000. It is approved by Government of Maharashtra and is affiliated to Swami Ramanand Teerth Marathwada University, Nanded. Nanded city is well connected by road and rail to all-important cities in India. It has unique historical importance of being the place of Court and Congregation of 10th Guru of Sikhs Shri Guru Gobind Singhji. Pilgrims all over the world visits Nanded.</p>
+       <section class=" container" >
+        <div class="row justify-content-between">
+          <div class="col-lg-8  mt-4">
+           <div class="p-1 shadow-sm  animate ">
+           <p class="p-2"> &nbsp; Mahatma Gandhi Mission's College of Computer Science and Information Technology is located at Nanded, a district place in Maharashtra. The College established in the year 2000. It is approved by Government of Maharashtra and is affiliated to Swami Ramanand Teerth Marathwada University, Nanded. Nanded city is well connected by road and rail to all-important cities in India. It has unique historical importance of being the place of Court and Congregation of 10th Guru of Sikhs Shri Guru Gobind Singhji. Pilgrims all over the world visits Nanded.</p>
+           <center><strong >
+            Click here to download tender form 2021-2022 <a href="doc\MGM_Tender.pdf"><button class="btn btn-outline-primary">download</button></a>
+          </strong></center>
+           </div>
           </div>
           <!--End welcome to MGM-->
           <!-- Online Payment -->
-          <div class="col-lg-4  shadow-sm animate rounded-2">
-            <a href="doc/Final prospectus 2019-20.pdf"><img src="img/new.gif" class="mt-3" alt=""> <p>Download Brouchre</p></a>
-            <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"><center><button class="btn btn-outline-success mb-4">ONLINE FEES PAYMENT</button></a></center>
+          <div class="col-lg-4 mt-4  shadow-sm animate ">
+            
+            <center><a href="doc/Final prospectus 2019-20.pdf"><button class="btn btn-outline-warning mb-3 mt-3">Download Brouchre</button> </a></center>
+            <center><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"><button class="btn btn-outline-success mb-4">ONLINE FEES PAYMENT</button></a></center>
           </div>
         </div>
        </section>     
@@ -273,8 +301,9 @@
           <center><img src="img/Say-no-to-Ragging.gif" height="20%" width="40%"  class="img-fluid" alt=""></center>
           <p class="p-3">
             <center><strong>Say No to Ragging</strong></center>
-            <b> Ragging - A violation of Human Rights. Ragging is strictly prohibited on campus & off campus. Join hands in making the college campus free from ragging. "Stop ragging. Stop this ... Thousands Say No to Ragging."
-            <br><a href="doc/anti ragging.pdf">Download - College Anti Ragging Policy - Student Brochure</a>
+            <p> Ragging - A violation of Human Rights. Ragging is strictly prohibited on campus & off campus. Join hands in making the college campus free from ragging. "Stop ragging. Stop this ... Thousands Say No to Ragging."</p>
+            <b>
+            <br><a href="doc/anti ragging.pdf" class="mt-2" ><button class="btn btn-outline-primary">Download</button></a> College Anti Ragging Policy - Student
           </b></p>
         </div>
        </div>
@@ -457,6 +486,37 @@
         ?>
         <!--End php footer-->
 
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
+
+
+        $('.center').slick({
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 4,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
+        });    </script>
   </body>
-  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>

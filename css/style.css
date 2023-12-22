@@ -75,3 +75,9 @@ animation: calc();
 .col-lg-5.col-md-12.col-sm-12.shadow-sm.animate{
   height: 560px;
 }
+.shadow-lg.rounded-2.bg-white.shadow-sm.p-3::before{
+color: aliceblue;
+}
+.slick-jq{
+          height: 140px;
+}
