@@ -36,14 +36,6 @@ height: 900px;!important
   padding-left: 20px;
   text-decoration: none;
 }
-/* ragg
-{
-  background-image: url(../img/Say-no-to-Ragging.gif);
-  image-resolution: 25%;
-  background-repeat: no-repeat, repeat;
-  background-color: #cccccc;
-  background-size: contain;  
-} */
 /* ======CSS of About MGM Page==========*/
 .cntrtxt{
 text-align: center;
@@ -59,17 +51,12 @@ text-align: center;
 .res_table{
   overflow-x: scroll;
 }
-.y-img
-{
-  overflow-y: scroll; 
-  height: 410px;
-}
 /*css of zooming animation */
 .animate{
   background: white;
 }
 .animate:hover{
-  background-color: #b3e3ff4d;
+background-color: #b3e3ff4d;
 animation: calc();
 }
 .col-lg-5.col-md-12.col-sm-12.shadow-sm.animate{
@@ -80,4 +67,25 @@ color: aliceblue;
 }
 .slick-jq{
           height: 140px;
+}
+.bg-transparent{
+  background: transparent;
+}
+
+.dropdown-menu{
+  border-radius: 0%;
+  background: rgb(221,237,249);
+background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 50%, rgba(221,237,255,1) 100%);
+}
+.dorupdown-menu:hover{
+  background-color:aqua;
+  text:black;
+}
+.pg-bg{
+  background-image: url('https://www.mgmccsit.ac.in/img/mgm%201.jpg');
+  stroke-opacity: calc(200px);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  
 }

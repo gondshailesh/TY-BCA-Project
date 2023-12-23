@@ -13,13 +13,13 @@
   </head>
   <body  class="" style="background: rgb(221,237,249);
 background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 50%, rgba(221,237,255,1) 100%);">
-    <div class="container-fluid">
+    <div class="container-fluid ">
 
       
       <!-- Modal of registration ug pg -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
+          <div class="modal fade" id="exampleModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+              <div class="modal-content bg-info bg-opacity-75">
                 <div class="modal-header">
                   <h1 class="modal-title fs-5" id="exampleModalLabel">Select Catogery</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -244,9 +244,9 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
       <!--  End Har Ghar Tiranga -->
 
 
-<center><hr style="width:80%;"></center>
-<center><strong class="h4">Companies for Placements</strong></center>
-      <center><hr size="" style="width:70%;"></center>
+          <center><hr style="width:80%;"></center>
+          <center><strong class="h4">Companies for Placements</strong></center>
+          <center><hr size="" style="width:70%;"></center>
 
      
 
@@ -261,54 +261,122 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
           <div class="slider-jq  p-3 "><div class="shadow-lg rounded-2 bg-white shadow-sm p-3 slick-jq"><center><img src="https://www.smartglobalgovernance.com/wp-content/uploads/Accenture-2.svg" alt="" class="img-fluid"></center></div></div>
         </div>
       </div>
-
-      
-
-
-
-      
-
-       <!--welcome to MGM-->
+       <!---->
        <section class=" container" >
-        <div class="row justify-content-between">
-          <div class="col-lg-8  mt-4">
-           <div class="p-1 shadow-sm  animate ">
-           <p class="p-2"> &nbsp; Mahatma Gandhi Mission's College of Computer Science and Information Technology is located at Nanded, a district place in Maharashtra. The College established in the year 2000. It is approved by Government of Maharashtra and is affiliated to Swami Ramanand Teerth Marathwada University, Nanded. Nanded city is well connected by road and rail to all-important cities in India. It has unique historical importance of being the place of Court and Congregation of 10th Guru of Sikhs Shri Guru Gobind Singhji. Pilgrims all over the world visits Nanded.</p>
-           <center><strong >
-            Click here to download tender form 2021-2022 <a href="doc\MGM_Tender.pdf"><button class="btn btn-outline-primary">download</button></a>
-          </strong></center>
-           </div>
-          </div>
-          <!--End welcome to MGM-->
-          <!-- Online Payment -->
-          <div class="col-lg-4 mt-4  shadow-sm animate ">
-            
-            <center><a href="doc/Final prospectus 2019-20.pdf"><button class="btn btn-outline-warning mb-3 mt-3">Download Brouchre</button> </a></center>
-            <center><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"><button class="btn btn-outline-success mb-4">ONLINE FEES PAYMENT</button></a></center>
-          </div>
+        
+         
+
+         <table class="table table-hover table-bg-dark mt-3 ">
+            <tr>
+              <th scope="col"> <strong><a href="doc/Final prospectus 2019-20.pdf"><button class="btn btn-outline-info mt-2">DOWNLOAD BROUCHRE</button></a></strong> </td>
+              <td>Download Information Broucher</td>
+            </tr>
+            <tr>
+              <td scope="col"><strong><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"><button class="btn btn-outline-info mt-2">ONLINE PAYMENT HERE</button></a> </strong></td>
+              <td>Inquire for fees in office "how much amount you should pay" and pay here.........!</td>
+              
+            </tr>
+            <tr>
+            <td scope="col"><strong ><a href="doc\MGM_Tender.pdf"><button class="btn btn-outline-info mt-2 ">DOWNLOAD TENDER</button></a></strong></td>
+            <td>Click here to download tender form 2021-2022</td>
+            </tr>
+            <tr>
+            <td scope="col"><strong ><a href="doc/anti ragging.pdf" class="mt-" ><button class="btn btn-outline-info mt-2"> DOWNLOAD ANTI RAGGING</button></a></strong></td>
+          <td>College Anti Ragging Policy - Student</td>  
+          </tr>
+          </table>
+          
         </div>
        </section>     
            <!-- End Online Payment -->
 
+         <p class="">
+         <center><hr style="width:80%;"></center>
+          <center><strong class="h4 ">Courses Provided by MGM</strong></center>
+          <center><hr size="" style="width:70%;"></center>
+         </p>
 
-        <!--Leaflet and no ragging part-->
-       <article class="container">
-       <div class="leaflet row justify-content-center gap-4 ">
-        <div class="y-img mt-4  shadow-sm animate col-sm-12 col-lg-7  ">
-          <img src="img/leflet.jpg" class="img-fluid w-100 " width="100%" alt="">
-          </div>
-        <div class="shadow-sm animate col-sm-12 col-lg-4 mt-4">
-          <center><img src="img/Say-no-to-Ragging.gif" height="20%" width="40%"  class="img-fluid" alt=""></center>
-          <p class="p-3">
-            <center><strong>Say No to Ragging</strong></center>
-            <p> Ragging - A violation of Human Rights. Ragging is strictly prohibited on campus & off campus. Join hands in making the college campus free from ragging. "Stop ragging. Stop this ... Thousands Say No to Ragging."</p>
-            <b>
-            <br><a href="doc/anti ragging.pdf" class="mt-2" ><button class="btn btn-outline-primary">Download</button></a> College Anti Ragging Policy - Student
-          </b></p>
-        </div>
+        <!--Leaflet course offered  part-->
+       <div class="container">
+        <div class=" mt-3 shadow-sm  col-sm-12 col-lg-12  ">
+        <div class="res_table">
+        <table class="table table-hover bg-transparent">
+          <thead>
+            <tr>
+              <th scope="col">Course Offered</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Eligibility</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">B.C.A.(Bachelor of Computer Application)</th>
+              <td>3 Years</td>
+              <td>12 <sup>th</sup>Art/Commerce/MCVC/Science(Any Group) </td>
+            </tr>
+            <tr>
+              <th scope="row">B.Sc.(Computer Science)/BCS</th>
+              <td>3 Years</td>
+              <td>12 <sup>th</sup>Science(Any Group)</td>
+            </tr>
+            <tr>
+              <th scope="row">B.Sc(Biotechnology)</th>
+              <td>3 Years</td>
+              <td>12 <sup>th</sup>Science(Any Group)</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">B.Sc(Bioinformatics)</th>
+              <td>3 Years</td>
+              <td>12 <sup>th</sup>Science(Any Group)</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">M.Sc.(Softwere Engneering)/MCS</th>
+              <td>2 Years</td>
+              <td>Any Science or Engg. Graduate/BCA/BCS</td>
+            </tr>
+            <tr>
+              <th scope="row">M.Sc(Electronics)</th>
+              <td>2 Years</td>
+              <td>Any Science or Engg. Graduate with (Physics , Math, Electronics)</td>
+            </tr>
+            <tr>
+              <th scope="row">M.Sc(Biotechnology)</th>
+              <td>2 Years</td>
+              <td>Any Science Graduate</td>
+            </tr>
+            <tr>
+              <th scope="row">M.Sc(Bioinformatics)</th>
+              <td>2 Years</td>
+              <td>Any Science/Medical/Pharmacy Graduate</td>
+            </tr>
+          </tbody>
+        </table>
+         </div>
        </div>
-       </article>
-        <!--End Leaflet and no ragging part-->
+      </div>
+          
+         <div class="container ">
+         <div class="row mt-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="bg-white rounded-2 p-3">
+            <p class="justify-content-between">
+            <center><strong>Say No to Ragging</strong></center>
+            <p> Ragging - A violation of Human Rights. Ragging is strictly prohibited on campus & off campus. Join hands in making the college campus free from ragging. "Stop ragging. Stop this ... Thousands Say No to Ragging."</p><b><br></b></p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-8 ">
+        <div class="bg-white rounded-2 p-3">
+        <p class="p-3 bg-transparent justify-content-between mt-4"> &nbsp; Mahatma Gandhi Mission's College of Computer Science and Information Technology is located at Nanded, a district place in Maharashtra. The College established in the year 2000. It is approved by Government of Maharashtra and is affiliated to Swami Ramanand Teerth Marathwada University, Nanded. Nanded city is well connected by road and rail to all-important cities in India. It has unique historical importance of being the place of Court and Congregation of 10th Guru of Sikhs Shri Guru Gobind Singhji. Pilgrims all over the world visits Nanded.</p>
+          
+        </div>
+        </div>
+          </div>
+         </div>
+        
+
+        
 
         <!--About collage section-->
         <div class="container">
@@ -478,8 +546,8 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
               </div>
              <!-- end carasoul item -->
           </div>
-        </div>
-        </div>
+          </div>
+          </div>
         <!--php footer-->
         <?php
         include'includedphp/footer.php';

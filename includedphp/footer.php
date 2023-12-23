@@ -45,7 +45,9 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold"><i>Mahatma Gandhi Missions's
+            <h6 class="text-uppercase fw-bold">
+              <i><img src="https://www.mgmccsit.ac.in/img/logo-g.png" alt=""></i><br>
+              <i>Mahatma Gandhi Missions's
               COLLEGE OF COMPUTER SCIENCE & INFORMATION TECHONOLOGY
               Affiliated to Swami Ramanand Teerth Marathwada University, Nanded, India</i></h6>
             <hr

@@ -12,7 +12,7 @@
       <!-- End logo and name of college-->
       <!-- Header ofcanvas-->
   <nav class="navbar navbar-expand-lg bg-info mb-5">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="../index.php">HOME</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,10 @@
               MGM
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../menu_files/About college.php">About MGM</a></li>
-              <li><a class="dropdown-item" href="../menu_files/vision&mission.php">Vision & Mission</a></li>
-              <li><a class="dropdown-item" href="../menu_files/founder and managment.php">Founder & Management</a></li>
-              <li><a class="dropdown-item" href="../menu_files/acadmic excellnce.php">Adademic Excellence</a></li>
+              <li><a class="dropdown-item " href="../menu_files/About college.php">About MGM</a></li>
+              <li><a class="dropdown-item " href="../menu_files/vision&mission.php">Vision & Mission</a></li>
+              <li><a class="dropdown-item " href="../menu_files/founder and managment.php">Founder & Management</a></li>
+              <li><a class="dropdown-item " href="../menu_files/acadmic excellnce.php">Adademic Excellence</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">

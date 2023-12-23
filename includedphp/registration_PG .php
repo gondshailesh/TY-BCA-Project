@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="../img/logo-g.png" />
 
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid ">
     
       <!--php header file included-->
         <div class="container-fluid">
@@ -19,19 +19,20 @@
          ?>
         </div>
      <!--End php header file included-->
-
+    
     <!--input fields of students -->
     <div class="container mt-5">
-      <form class="row g-3 needs-validation form-control  bg-info bg-opacity-25" name="" action="" method="post" >
+      <form class=" row g-3 form-control text-warning bg-dark bg-opacity-50" name="" action="" method="post" >
       <!-- course selection-->
-      <!-- row 1 -->
+      <div class="">
+        <!-- row 1 -->
       <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for=""></label>
-          <input type="text" class="form-control"  placeholder="Student Full Name" required name="fname" autocomplete="off">
+          <label for="" class="mb-1 ms-1">Student Full Name <sup style="color:red">*</sup></label>
+          <input type="text" class="form-control mmt-2"  placeholder="Student Full Name" required name="fname" autocomplete="off">
         </div>
         <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for=""></label>
+          <label for="">Mother Name</label>
           <input type="text" class="form-control" placeholder="Mother Name as par 12th marksheet" required autocomplete="off">
         </div>
       </div>
@@ -179,21 +180,20 @@
               </div>
 
 
-               <div class="row mt-2">
+               <div class="row mt-2 mb-2">
             <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
-              <button class="btn btn-outline-warning w-100" type="reset" value="reset">Reset</button>
+              <button class="btn btn-danger  w-100" type="reset" value="reset">Reset</button>
             </div>
             <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
-              <button class="btn btn-outline-danger w-100" type="Submit" value="submit" > Submit</button>
+              <button class="btn btn-success w-100" type="Submit" value="submit" > Submit</button>
             </div>
           </div>
+      </div>
         </form>
          </div>   
          </div>
          </div>
     <!--End input fields of students -->
-
-      
 
         
       <!--php footer-->
