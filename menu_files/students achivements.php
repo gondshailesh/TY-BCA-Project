@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../img/logo-g.png" />
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid brand-body">
     <!--php header file included-->
         <?php
         include'../includedphp/header.php';
@@ -22,7 +22,7 @@
       </p></center></strong>
 
     <div class="res_table">
-        <table class="table-responsive-lg table-responsive-md table-responsive-sm table table-bordered table-primary border-primary text-center">
+        <table class="table-responsive-lg table-responsive-md table-responsive-sm table table-hover table-light  text-center">
         <thead>
           <tr>
           <th>Sr. No.</th>
@@ -107,7 +107,7 @@
 <strong><center><p class="mt-2">Avishkar Research Festival Achievements 2019-20</p></center></strong>
 
 <div class="res_table">
-  <table class="table-responsive-lg table-responsive-md table-responsive-sm table table-bordered table-primary border-primary text-center">
+  <table class="table-responsive-lg table-responsive-md table-responsive-sm table table-hover  table-light  text-center">
   <thead>
     <tr>
     <th>Sr. No.</th>

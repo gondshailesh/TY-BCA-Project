@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" type="image/x-icon" href="../img/logo-g.png" />
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid ">
     <!--php header file included-->
         <?php
         include'../includedphp/header.php';

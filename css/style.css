@@ -74,8 +74,7 @@ color: aliceblue;
 
 .dropdown-menu{
   border-radius: 0%;
-  background: rgb(221,237,249);
-background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 50%, rgba(221,237,255,1) 100%);
+  background: linear-gradient(90deg, rgb(190 227 255 / 80%) 0%, rgb(182 218 255 / 91%) 50%, rgb(216 231 249 / 74%) 100%);
 }
 .dorupdown-menu:hover{
   background-color:aqua;
@@ -88,4 +87,8 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
   background-attachment: fixed; 
   background-size: 100% 100%;
   
+}
+.brand-body{
+  background: rgb(221,237,249);
+background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 50%, rgba(221,237,255,1) 100%);
 }

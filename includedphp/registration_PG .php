@@ -10,10 +10,10 @@
     <link rel="icon" type="image/x-icon" href="../img/logo-g.png" />
 
   </head>
-  <body class="container-fluid ">
+  <body class="container brand-body">
     
       <!--php header file included-->
-        <div class="container-fluid">
+        <div class="container">
           <?php
         include'../includedphp/header.php';
          ?>
@@ -22,24 +22,24 @@
     
     <!--input fields of students -->
     <div class="container mt-5">
-      <form class=" row g-3 form-control text-warning bg-dark bg-opacity-50" name="" action="" method="post" >
+      <form class=" row g-3 form-control text-dark bg-light bg-opacity-25" name="" action="" method="post" >
       <!-- course selection-->
       <div class="">
         <!-- row 1 -->
       <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for="" class="mb-1 ms-1">Student Full Name <sup style="color:red">*</sup></label>
+          <label for="" class="mb-2 ms-1">Student Full Name <sup style="color:red">*</sup></label>
           <input type="text" class="form-control mmt-2"  placeholder="Student Full Name" required name="fname" autocomplete="off">
         </div>
         <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for="">Mother Name</label>
+          <label for=""  class="mb-2 ms-1">Mother Name<sup style="color:red">*</sup></label>
           <input type="text" class="form-control" placeholder="Mother Name as par 12th marksheet" required autocomplete="off">
         </div>
       </div>
       <!-- row 2 -->
       <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for=""></label>
+          <label for="" class="mb-2 ms-1">Select Course<sup style="color:red">*</sup></label>
           <select class="form-select" aria-label="Default select example" required autocomplete="off"> 
         <option value="" selected>Select Course</option>       
         <option value="1">MCA(Master Of Computer Application)</option>
@@ -49,7 +49,7 @@
       </select>
         </div>
         <div class="col-sm-12 col-lg-6 col-md-6">
-          <label for=""></label>
+          <label for=""  class="mb-2 ms-1">Select Acadmic Year<sup style="color:red">*</sup></label>
           <select class="form-select" aria-label="Default select example" required autocomplete="off"> 
             <option value="" selected>Select Acadmic Year</option>       
               <option value="1">2020-21</option>
@@ -67,11 +67,11 @@
       <!-- row 3 -->
          <div class="row">
          <div class="col-sm-12 col-lg-6 col-md-6">
-            <label  class="form-label"></label>
+            <label  class="form-label">Total Marks<sup style="color:red">*</sup></label>
             <input type="text" name="mothername" class="form-control" placeholder="Total Marks" required autocomplete="off">
           </div>
           <div class="col-sm-12 col-lg-6 col-md-6">
-            <label  class="form-label"></label>
+            <label  class="form-label">Obtained Marks<sup style="color:red">*</sup></label>
             <input type="number" name="" class="form-control" placeholder=" Obtained Marks" required autocomplete="off">
             </div>
             <div>
@@ -79,11 +79,11 @@
         <!-- row 4 -->
           <div class="row">
            <div class="col-sm-12 col-lg-6 col-md-6">
-              <label  class="form-label"></label>
+              <label  class="form-label">Marks in Percentile</label>
               <input type="text" name="mothername" class="form-control" placeholder="Marks in Percentile" required autocomplete="off">
             </div>
             <div class="col-sm-12 col-lg-6 col-md-6">
-            <label for=""></label>
+            <label for="">Select Your Catogery<sup style="color:red">*</sup></label>
             <select class="form-select form-control" aria-label="Default select example" required> 
               <option value="" selected>Select Your Catogery</option>       
                 <option value="1">SC</option>
@@ -102,11 +102,11 @@
     <!-- row 5 -->
       <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6">
-            <label  class="form-label"></label>
+            <label  class="form-label">Enter Your Full Name<sup style="color:red">*</sup></label>
             <input type="text" name="Fullname" class="form-control" placeholder="Enter Your Full Name" required autocomplete="off">
           </div>
         <div class="col-sm-12 col-lg-6 col-md-6">
-            <label  class="form-label"></label>
+            <label  class="form-label">Name as par 12th marksheet<sup style="color:red">*</sup></label>
             <input type="text" name="mothername" class="form-control" placeholder="Name as par 12th marksheet" required autocomplete="off">
           </div>
           </div>
@@ -114,7 +114,7 @@
          <!-- row 6 -->
            <div class="row">
             <div class="col-sm-12 col-lg-6 col-md-6">
-              <label for=""></label>
+              <label for="">Course Fees<sup style="color:red">*</sup></label>
               <select class="form-select" aria-label="Default select example" required autocomplete="off"> 
                 <option value="" selected>Course Fees</option>       
                   <option value="1">20040</option>
@@ -126,7 +126,7 @@
                 </select>
             </div>
             <div class="col-sm-12 col-lg-6 col-md-6">
-              <label for=""></label>
+              <label for=""> Passing Year<sup style="color:red">*</sup></label>
               <select class="form-select" aria-label="Default select example" required autocomplete="off"> 
                 <option value="" selected>Select 12<sup>th</sup> Passing Year</option>       
                   <option value="1">2020-21</option>
@@ -142,11 +142,11 @@
            <!-- row 7 -->
             <div class="row">
               <div class="col-sm-12 col-lg-6 col-md-6">
-                  <label  class="form-label"></label>
+                  <label  class="form-label">Enter Name of The Other Course<sup style="color:red">*</sup></label>
                   <input type="text" name="Fullname" class="form-control" placeholder="Enter Name of The Other Course "required autocomplete="off">
                 </div>
                 <div class="col-sm-12 col-lg-6 col-md-6">
-                  <label  class="form-label"></label>
+                  <label  class="form-label">Enter your Email<sup style="color:red">*</sup></label>
                   <input type="text" name="studemail" class="form-control" placeholder="Enter your Email" required autocomplete="off">
                 </div>
                 </div>
@@ -156,11 +156,11 @@
              <!-- row 8 -->
              <div class="row">
                <div class="col-sm-12 col-lg-6 col-md-6">
-                   <label  class="form-label"></label>
+                   <label  class="form-label">Enter Your Father's Name<sup style="color:red">*</sup></label>
                    <input type="text" name="Fathername" class="form-control" placeholder="Enter Your Father's Name" required autocomplete="off">
                  </div>
                <div class="col-sm-12 col-lg-6 col-md-6">
-                   <label  class="form-label"></label>
+                   <label  class="form-label">Father's Occupation<sup style="color:red">*</sup></label>
                    <input type="text" name="occupation" class="form-control" placeholder="Father's Occupation " required autocomplete="off">
                  </div>
              </div>
@@ -168,11 +168,11 @@
                <!-- row 8 -->
                <div class="row">
                  <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
-                     <label  class="form-label"></label>
+                     <label  class="form-label">Father's Annual Income<sup style="color:red">*</sup></label>
                      <input type="number" name="Fatherincome" class="form-control" placeholder="Father's Annual Income" required autocomplete="off">
                    </div>
                  <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
-                     <label  class="form-label"></label>
+                     <label  class="form-label">Father's Contact no<sup style="color:red">*</sup></label>
                      <input type="number" name="fathercont" class="form-control" placeholder="Father's Contact no" required autocomplete="off">
                    </div>
                </div>

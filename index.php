@@ -52,7 +52,7 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
       </center>
       <!-- End logo and name of college-->
            <!-- Header ofcanvas-->
-  <nav class=" container shadow-sm navbar navbar-expand-lg bg-info mb-2 mt-2">
+  <nav class=" container rounded-2 shadow-sm navbar navbar-expand-lg bg-info mb-2 mt-2">
   <div class="container">
     <span class="navbar-brand" >
 

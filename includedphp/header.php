@@ -1,4 +1,28 @@
-      <!--logo and name of college-->
+   <!-- Modal of registration ug pg -->
+   <div class="modal fade" id="exampleModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog ">
+              <div class="modal-content bg-info bg-opacity-75">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Select Catogery</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="d-flex justify-content-between justify-content-center gap-1">
+                    <div class="ms-5"><a href="../includedphp/registration_PG .php"><button class="btn btn-warning">Post Graduate</button></a> </div>
+                    <div class="me-5"><a href="../includedphp/registration_UG.php"><button class="btn btn-primary">Under  Graduate</button></a> </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thankyou..!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End  Modal -->     
+     
+     
+     
+     <!--logo and name of college-->
       <center>
         <div class="container-fluid mhead">
           <img src="https://www.mgmccsit.ac.in/img/logo-g.png" alt="mgmlogo">
@@ -11,7 +35,7 @@
       </center>
       <!-- End logo and name of college-->
       <!-- Header ofcanvas-->
-  <nav class="navbar navbar-expand-lg bg-info mb-5">
+  <nav class="container rounded-2 navbar navbar-expand-lg bg-info mb-5">
   <div class="container">
     <a class="navbar-brand" href="../index.php">HOME</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -24,6 +48,7 @@
       </div>
       <div class="offcanvas-body">
       <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+        <li><button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               MGM
