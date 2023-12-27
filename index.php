@@ -16,6 +16,8 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
     <div class="container-fluid ">
 
       
+
+    
       <!-- Modal of registration ug pg -->
           <div class="modal fade" id="exampleModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog ">
