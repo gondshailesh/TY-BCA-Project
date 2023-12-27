@@ -10,6 +10,10 @@
     <title>Admin Panel</title>
 </head>
 <body>
+
+
+
+
     <div class="side-menu">
         <div class="brand-name">
             <h1>MGM'S ADMIN</h1>
