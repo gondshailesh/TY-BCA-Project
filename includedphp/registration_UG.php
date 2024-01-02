@@ -92,8 +92,8 @@
           <span id="doberror"></span>
           </div>
           <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
-          <label for="" class="form-label ms-2">Select Your Catogery<span style="color:red;">*</span></label>
-          <select class="form-select form-control" aria-label="Default select example"   autocomplete="off" name="catogery" id="catogery">
+          <label for="" class="form-label ms-2">Select Your Category<span style="color:red;">*</span></label>
+          <select class="form-select form-control" aria-label="Default select example"   autocomplete="off" name="category" id="category">
             <option value="" selected > Select Your Catogery</option>       
               <option value="1">SC</option>
               <option value="2">ST</option>
@@ -105,14 +105,17 @@
               <option value="8">NT-B</option>
               <option value="9">NT-C</option>
             </select>
+            <span id="categoryerror"></span>
+
             </div>
             <div>
 
                <!-- row 5 -->
               <div class="row">
          <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
-            <label  class="form-label ms-2">Marks in Percent<span style="color:red;">*</span></label>
-            <input type="text" class="form-control" placeholder="Marks in Percentile"   autocomplete="off" name="percentage" id="percentage" >
+            <label  class="form-label ms-2">12<sup>th</sup> Marks in Percent<span style="color:red;">*</span></label>
+            <input type="text" class="form-control" placeholder="12th  Percentile"   autocomplete="off" name="percentage" id="percentage" >
+            <span id="percentageerror"></span>
           </div>
           <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
           <label for="" class="form-label ms-2">12th Passing Year<span style="color:red;">*</span></label>
@@ -125,6 +128,7 @@
               <option value="5">2024-25</option>
               <option value="6">2025-26</option>
             </select>
+            <span id="passingyearerror"></span>
         </div>
         </div>
 
@@ -133,54 +137,62 @@
         <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
             <label  class="form-label ms-2">Enter First Name<span style="color:red;">*</span></label>
             <input type="text" class="form-control" placeholder="Only Your Name"   autocomplete="off" name="firstname" id="firstname">
+            <span id="firstnameerror"></span>
           </div>
         <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
-            <label  class="form-label ms-2">Enter Middle name<span style="color:red;">*</span></label>
-            <input type="text"  class="form-control" placeholder="Only Father name"   autocomplete="off" name="midname" id="midname">
+            <label  class="form-label ms-2">Enter Last name<span style="color:red;">*</span></label>
+            <input type="text"  class="form-control" placeholder="Only Surname"   autocomplete="off" name="lastname" id="lastname">
+            <span id="lastnameerror"></span>
           </div>
           </div>
                  
        <!-- row 7 -->
        <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
-          <label for="" class="form-label ms-2">Enter Last Name<span style="color:red;">*</span></label>
-          <input type="text" class="form-control" placeholder="Only Last Name"   autocomplete="off" name="lastname" id="lastname"> 
-          </div>
+          <label for="" class="form-label ms-2">Enter City Name<span style="color:red;">*</span></label>
+          <input type="text" class="form-control" placeholder="Enter your city name"   autocomplete="off" name="city" id="city"> 
+          <span id="cityerror"></span>  
+        </div>
           <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
             <label  class="form-label ms-2">Your Permanant Address<span style="color:red;">*</span></label>
-            <input type="text"  class="form-control" placeholder=" Obtained Marks"   autocomplete="off" name="address" id="address">
+            <input type="text"  class="form-control" placeholder="Enter your address"   autocomplete="off" name="address" id="address">
+            <span id="addresserror"></span>
           </div>
         </div>
-        <div class="mb-2 mt-2"> 
-          <b>Select Gender</b><br>
-            <input type="radio" class="form-check-input" id="male" name="gender" value="Female" >
-            <label for="male" class="form-check-label">Male</label><br>
-            <input type="radio" class="form-check-input" id="female" name="gender" value="male" >
-            <label for="css">Female</label><br>
-            <input type="radio" class="form-check-input" id="other" name="gender" value="other" >
-            <label for="other" class="form-check-label">Other</label>
+        <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
+          <label for="" class="form-label ms-2">Select Gender<span style="color:red;">*</span></label>
+          <select class="form-select" aria-label="Default select example"   autocomplete="off" name="gender" id="gender"> 
+            <option value="" selected>Select Gender</option>       
+              <option value="1">male</option>
+              <option value="2">female</option>
+              <option value="3">other</option>
+            </select>
+            <span id="gendererror"></span>
         </div>
         <div class="mb-2 mt-2">
             <b>Have you complited any Degree/Diploma/course</b> 
             <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="show" value="yes">
-              <label class="form-check-label" for="inlineRadio1">yes</label>
+            <input class="form-check-input" type="radio" name="yesno" id="yes" value="yes">
+              <label class="form-check-label" for="yes">yes</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio"  name="inlineRadioOptions" id="hide" value="no">
-              <label class="form-check-label" for="inlineRadio2">no</label>
-             </div>
+              <input class="form-check-input" type="radio"  name="yesno" id="no" value="no">
+              <label class="form-check-label" for="no">no</label>
+            </div>
+            <span id="yesnoerror"></span> 
         </div>
         
           <!-- row 8 -->
       <div class="row" id="degree">
         <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
             <label  class="form-label ms-2">Name of Other course<span style="color:red;">*</span></label>
-            <input type="text" class="form-control" placeholder="Name Of Course"   autocomplete="off" name="othercoursename" id="othercoursename">
+            <input type="text" class="form-control" placeholder="Name Of Course"   autocomplete="off" name="othercourse" id="othercourse">
+            <span id="othercourseerror"></span>
           </div>
         <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
             <label  class="form-label ms-2">CGPA<span style="color:red;">*</span></label>
             <input type="number"  class="form-control" placeholder="CGPA"   autocomplete="off" name="cgpa" id="cgpa">
+            <span id="cgpaerror"></span>
           </div>
           </div>
           
@@ -191,10 +203,12 @@
             <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
                 <label class="form-label ms-2">Enter Your Father's Name<span style="color:red;">*</span></label>
                 <input type="text"  class="form-control" placeholder="Enter Your Father's Name"   autocomplete="off" name="fname">
+               <span id=""></span>
               </div>
             <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
                 <label  class="form-label ms-2">Father's Occupation <span style="color:red;">*</span></label>
                 <input type="text"  class="form-control" placeholder="Father's Occupation "   autocomplete="off" name="foccupation" id="foccupation" >
+                <span id=""></span>
               </div>
           </div>
           <!-- row 10 -->
@@ -202,10 +216,12 @@
             <div class="col-sm-12 col-lg-6 col-md-6 mb-2 mb-2">
                 <label  class="form-label ms-2">Father's Annual Income<span style="color:red;">*</span></label>
                 <input type="number"  class="form-control" placeholder="Father's Annual Income"   autocomplete="off" name="fanual" id="fanual">
+                <span id=""></span>
               </div>
             <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
                 <label  class="form-label ms-2">Father's Contact no<span style="color:red;">*</span></label>
                 <input type="number"  class="form-control" placeholder="Father's Contact no"   autocomplete="off" name="fcontact" id="fcontact">
+                <span id=""></span>
               </div>
           </div>
           <div class="row mt-2">
@@ -236,13 +252,13 @@
   <script type="text/javascript">
       $(document).ready(function(){
 
-      $("#hide").click(function(){
+      $("#no").click(function(){
         $("#degree").hide();
         $("#degree").fadeOut();
         $("#degree").fadeOut("slow");
         $("#degree").fadeOut(6000);
       });
-      $("#show").click(function(){
+      $("#yes").click(function(){
         $("#degree").show();
         $("#degree").fadeIn();
         $("#degree").fadeIn("slow");
@@ -253,24 +269,33 @@
   </script>
   <script>
             
-          // let  catogery =document.getElementById('catogery').value;
-          // let  percentage =document.getElementById('percentage').value;
-          // let  passingyear =document.getElementById('passingyear').value;
-          // let  firstname =document.getElementById('firstname').value;
-          // let  midname =document.getElementById('midname').value;
-          // let  lastname =document.getElementById('lastname').value;
-          // let  address =document.getElementById('address').value;
-          // let  =document.getElementById('').value;
           // let  =document.getElementById('').value;
           // let  =document.getElementById('').value;
           // let  =document.getElementById('').value;
           // let  =document.getElementById('').value;
 
           function validateForm() {
+            let cgpa =parseFloat(document.getElementById('cgpa').value);
+            let othercourse =document.getElementById('othercourse').value;
+          const yesRadio = document.getElementById("yes");
+          const noRadio = document.getElementById("no");
+          const errorSpan = document.getElementById("yesnoerror"); 
+            let yes =document.getElementById('yes').value;
+            let gender =document.getElementById('gender').value;
+            let address =document.getElementById('address').value;
+            let city =document.getElementById('city').value;
+            let lastname =document.getElementById('lastname').value;
+            let firstname =document.getElementById('firstname').value;
+            let passingyear =document.getElementById('passingyear').value;
+            let percentage =document.getElementById('percentage').value;
+            let category =document.getElementById('category').value;
+            let dob =document.getElementById('dob').value;
+          const givenDate = new Date(dob);//date format 
+          const currentDate = new Date(); ///for current date 
+          const ageDifferenceInYears = currentDate.getFullYear() - givenDate.getFullYear();
           const dateRegex = /^\d{4}-\d{2}-\d{2}$/; // Matches YYYY-MM-DD format  
-            let  dob =document.getElementById('dob').value;
-            let  acadmicyear =document.getElementById('acadmicyear').value;
-            let  course =document.getElementById('course').value;
+            let acadmicyear =document.getElementById('acadmicyear').value;
+            let course =document.getElementById('course').value;
           const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;//Matches Email: abc@abc.abc format
             let email =document.getElementById('email').value;
           const adharRegex = /^\d{12}$/;// Matches aadhar no
@@ -282,8 +307,7 @@
               document.getElementById('fullname').style.border="2px solid red";
               document.getElementById('fullnameerror').style.color="red";
               document.getElementById('fullnameerror').innerHTML="Enter a valid name";
-            }
-              else if(regxcalltext(fullname)){
+            }else if(regxcalltext(fullname)){
               }else if(mothername ===""){
               document.getElementById('mothername').focus();
               document.getElementById('mothername').style.border="2px solid red";
@@ -296,37 +320,113 @@
               document.getElementById('adharno').focus();
               document.getElementById('adharno').style.border="2px solid red";
               document.getElementById('adharnoerror').style.color="red";
-              document.getElementById('adharnoerror').innerHTML="Enter a valid adhar no";
+              document.getElementById('adharnoerror').innerHTML="Enter valid aadhar no";
               }else if(!adharRegex.test(adharno)){
-              alert("Adhar invalid");
+              alert("Aadhar no invalid");
               }else if(email===""){
               document.getElementById('email').focus();
               document.getElementById('email').style.border="2px solid red";
               document.getElementById('emailerror').style.color="red";
               document.getElementById('emailerror').innerHTML="Enter a valid email";
               }else if(!emailRegex.test(email)){
-                alert("Email is invalid");
+                alert(" invalid Email ");
               }else if(course=="") {
               document.getElementById('course').focus();
               document.getElementById('course').style.border="2px solid red";
               document.getElementById('courseerror').style.color="red";
-              document.getElementById('courseerror').innerHTML=" Select a course";
+              document.getElementById('courseerror').innerHTML="Select a course";
               }else if (acadmicyear =="") {
               document.getElementById('acadmicyear').focus();
               document.getElementById('acadmicyear').style.border="2px solid red";
               document.getElementById('acadmicyearerror').style.color="red";
-              document.getElementById('acadmicyearerror').innerHTML=" Select a course";
+              document.getElementById('acadmicyearerror').innerHTML="Select a acadmic year";
               }else if(dob===""){
               document.getElementById('dob').focus();
               document.getElementById('dob').style.border="2px solid red";
               document.getElementById('doberror').style.color="red";
-              document.getElementById('doberror').innerHTML=" Select your date of birth";
-              } else if(!dateRegex.test(dob)){
-                alert("date of birth is valid");
-              }  
-              
+              document.getElementById('doberror').innerHTML="Select valid date of birth";
+              }else if(!dateRegex.test(dob)){
+                   alert("date is invalid")
+              }else if (ageDifferenceInYears <=17) {
+                alert("date of birth is invalid");
+              }else if(category ==""){
+              document.getElementById('category').focus();
+              document.getElementById('category').style.border="2px solid red";
+              document.getElementById('categoryerror').style.color="red";
+              document.getElementById('categoryerror').innerHTML=" Select your category";
+              }else if(percentage==""){
+              document.getElementById('percentage').focus();
+              document.getElementById('percentage').style.border="2px solid red";
+              document.getElementById('percentageerror').style.color="red";
+              document.getElementById('percentageerror').innerHTML="Enter your percent";
+              }else if(!(percentage >= 60 ) && (percentage <= 100)){
+                document.getElementById('percentage').focus();
+                document.getElementById('percentage').style.border="2px solid red";
+                document.getElementById('percentageerror').style.color="red";
+                document.getElementById('percentageerror').innerHTML="Enter your percent";
+                alert("your marks should be grater than 60.00 and less than 100");
+              }else if(passingyear==""){
+                document.getElementById('passingyear').focus();
+                document.getElementById('passingyear').style.border="2px solid red";
+                document.getElementById('passingyearerror').style.color="red";
+                document.getElementById('passingyearerror').innerHTML="Select Passing Year";
+              }else if(firstname== ""){
+                document.getElementById('firstname').focus();
+                document.getElementById('firstname').style.border="2px solid red";
+                document.getElementById('firstnameerror').style.color="red";
+                document.getElementById('firstnameerror').innerHTML="only your name";
+              }else if(regxcalltext(firstname)){
+              }else if(lastname== ""){
+                document.getElementById('lastname').focus();
+                document.getElementById('lastname').style.border="2px solid red";
+                document.getElementById('lastnameerror').style.color="red";
+                document.getElementById('lastnameerror').innerHTML="only your surname";
+              }else if(regxcalltext(lastname)){
+                alert("invalid last name");
+              }else if(city== ""){
+                document.getElementById('city').focus();
+                document.getElementById('city').style.border="2px solid red";
+                document.getElementById('cityerror').style.color="red";
+                document.getElementById('cityerror').innerHTML="only your name";
+              }else if(regxcalltext(city)){
+              }else if(address == ""){
+                document.getElementById('address').focus();
+                document.getElementById('address').style.border="2px solid red";
+                document.getElementById('addresserror').style.color="red";
+                document.getElementById('addresserror').innerHTML="only your name";
+              }else if(regxcalltext(address)){
+              }else if(gender==""){
+                document.getElementById('gender').focus();
+                document.getElementById('gender').style.border="2px solid red";
+                document.getElementById('gendererror').style.color="red";
+                document.getElementById('gendererror').innerHTML="only your name";              
+              }else if (yesRadio.checked || noRadio.checked) {
 
-            
+                 errorSpan.textContent = "";  // Clear any previous error messages
+             
+                 // Get the value of the selected radio button
+                 const selectedValue = yesRadio.checked ? "yes" : "no";
+             
+                 // Perform actions based on the selected value
+                 if (selectedValue === "yes") {
+                   if(othercourse==""){
+                    document.getElementById('othercourse').focus();
+                    document.getElementById('othercourse').style.border="2px solid red";
+                    document.getElementById('othercourseerror').style.color="red";
+                    document.getElementById('othercourseerror').innerHTML="coursename and cgpa must needed"; 
+                  }else if(regxcalltext(othercourse)){
+                  } if(cgpa==""){
+                    alert("hello");
+                  } 
+               } else {
+                 // Display an error message if no radio button is selected
+                 alert("Select degree/Diploma status");
+               }     
+
+               yesRadio.addEventListener("change", validateForm);
+                noRadio.addEventListener("change", validateForm);
+
+         
           }
           function regxcalltext(name){
               var regex = /^[a-zA-Z\s]+$/;
@@ -334,6 +434,7 @@
                   return true;
                  } 
             }
+        }
   </script>
   </body>
   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
