@@ -169,7 +169,39 @@
             </select>
             <span id="gendererror"></span>
         </div>
-        <div class="mb-2 mt-2">
+        
+          
+          <hr>
+          <strong>Parent Details</strong>
+          <!-- row 9 -->
+          <div class="row">
+            <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
+                <label class="form-label ms-2">Enter Your Father's Name<span style="color:red;">*</span></label>
+                <input type="text"  class="form-control" placeholder="Enter Your Father's Name"   autocomplete="off" name="fname">
+               <span id="fnameerror"></span>
+              </div>
+            <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
+                <label  class="form-label ms-2">Father's Occupation <span style="color:red;">*</span></label>
+                <input type="text"  class="form-control" placeholder="Father's Occupation "   autocomplete="off" name="foccupation" id="foccupation" >
+                <span id="foccupationerror"></span>
+              </div>
+          </div>
+          <!-- row 10 -->
+          <div class="row">
+            <div class="col-sm-12 col-lg-6 col-md-6 mb-2 mb-2">
+                <label  class="form-label ms-2">Father's Annual Income<span style="color:red;">*</span></label>
+                <input type="number"  class="form-control" placeholder="Father's Annual Income"   autocomplete="off" name="fanual" id="fanual">
+                <span id="fannualerror"></span>
+              </div>
+            <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
+                <label  class="form-label ms-2">Father's Contact no<span style="color:red;">*</span></label>
+                <input type="number"  class="form-control" placeholder="Father's Contact no"   autocomplete="off" name="fcontact" id="fcontact">
+                <span id="fcontacterror"></span>
+              </div>
+          </div>
+          
+        <center><hr class=""></center>
+          <div class="mb-2 mt-2">
             <b>Have you complited any Degree/Diploma/course</b> 
             <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="yesno" id="yes" value="yes">
@@ -194,36 +226,7 @@
             <input type="number"  class="form-control" placeholder="CGPA"   autocomplete="off" name="cgpa" id="cgpa">
             <span id="cgpaerror"></span>
           </div>
-          </div>
-          
-          <hr>
-          <strong>Parent Details</strong>
-          <!-- row 9 -->
-          <div class="row">
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
-                <label class="form-label ms-2">Enter Your Father's Name<span style="color:red;">*</span></label>
-                <input type="text"  class="form-control" placeholder="Enter Your Father's Name"   autocomplete="off" name="fname">
-               <span id=""></span>
-              </div>
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
-                <label  class="form-label ms-2">Father's Occupation <span style="color:red;">*</span></label>
-                <input type="text"  class="form-control" placeholder="Father's Occupation "   autocomplete="off" name="foccupation" id="foccupation" >
-                <span id=""></span>
-              </div>
-          </div>
-          <!-- row 10 -->
-          <div class="row">
-            <div class="col-sm-12 col-lg-6 col-md-6 mb-2 mb-2">
-                <label  class="form-label ms-2">Father's Annual Income<span style="color:red;">*</span></label>
-                <input type="number"  class="form-control" placeholder="Father's Annual Income"   autocomplete="off" name="fanual" id="fanual">
-                <span id=""></span>
-              </div>
-            <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
-                <label  class="form-label ms-2">Father's Contact no<span style="color:red;">*</span></label>
-                <input type="number"  class="form-control" placeholder="Father's Contact no"   autocomplete="off" name="fcontact" id="fcontact">
-                <span id=""></span>
-              </div>
-          </div>
+          </div> 
           <div class="row mt-2">
             <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
               <button class="btn btn-outline-warning w-100" type="reset" value="reset">Reset</button>
@@ -269,18 +272,22 @@
   </script>
   <script>
             
-          // let  =document.getElementById('').value;
-          // let  =document.getElementById('').value;
-          // let  =document.getElementById('').value;
-          // let  =document.getElementById('').value;
+        
 
           function validateForm() {
-            let cgpa =parseFloat(document.getElementById('cgpa').value);
-            let othercourse =document.getElementById('othercourse').value;
-          const yesRadio = document.getElementById("yes");
-          const noRadio = document.getElementById("no");
-          const errorSpan = document.getElementById("yesnoerror"); 
-            let yes =document.getElementById('yes').value;
+          //   let cgpa =parseFloat(document.getElementById('cgpa').value);
+          //   let othercourse =document.getElementById('othercourse').value;
+          // const yesRadio = document.getElementById("yes");
+          // const noRadio = document.getElementById("no");
+          // const errorSpan = document.getElementById("yesnoerror"); 
+          //   let yes =document.getElementById('yes').value;
+            let  fname=document.getElementById('fname').value;
+            // let  foccupation=document.getElementById('foccupation').value;
+            // let  fannual=document.getElementById('fannual').value;
+            // let  fcontact=document.getElementById('fcontact').value;
+
+
+
             let gender =document.getElementById('gender').value;
             let address =document.getElementById('address').value;
             let city =document.getElementById('city').value;
@@ -400,42 +407,50 @@
                 document.getElementById('gender').style.border="2px solid red";
                 document.getElementById('gendererror').style.color="red";
                 document.getElementById('gendererror').innerHTML="only your name";              
-              }else if (yesRadio.checked || noRadio.checked) {
-
-                 errorSpan.textContent = "";  // Clear any previous error messages
-             
-                 // Get the value of the selected radio button
-                 const selectedValue = yesRadio.checked ? "yes" : "no";
-             
-                 // Perform actions based on the selected value
-                 if (selectedValue === "yes") {
-                   if(othercourse==""){
-                    document.getElementById('othercourse').focus();
-                    document.getElementById('othercourse').style.border="2px solid red";
-                    document.getElementById('othercourseerror').style.color="red";
-                    document.getElementById('othercourseerror').innerHTML="coursename and cgpa must needed"; 
-                  }else if(regxcalltext(othercourse)){
-                  } if(cgpa==""){
-                    alert("hello");
-                  } 
-               } else {
-                 // Display an error message if no radio button is selected
-                 alert("Select degree/Diploma status");
-               }     
-
-               yesRadio.addEventListener("change", validateForm);
-                noRadio.addEventListener("change", validateForm);
+              }else 
+              }
+              
 
          
-          }
+          
           function regxcalltext(name){
               var regex = /^[a-zA-Z\s]+$/;
                 if (!regex.test(name)) {
                   return true;
                  } 
             }
-        }
   </script>
   </body>
   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>
+
+
+
+
+
+<!-- 
+if (yesRadio.checked || noRadio.checked) {
+
+errorSpan.textContent = "";  // Clear any previous error messages
+
+// Get the value of the selected radio button
+const selectedValue = yesRadio.checked ? "yes" : "no";
+
+// Perform actions based on the selected value
+if (selectedValue === "yes") {
+  if(othercourse==""){
+   document.getElementById('othercourse').focus();
+   document.getElementById('othercourse').style.border="2px solid red";
+   document.getElementById('othercourseerror').style.color="red";
+   document.getElementById('othercourseerror').innerHTML="coursename and cgpa must needed"; 
+ }else if(regxcalltext(othercourse)){
+ } if(cgpa==""){
+   alert("hello");
+ } 
+} else {
+// Display an error message if no radio button is selected
+alert("Select degree/Diploma status");
+}     
+
+yesRadio.addEventListener("change", validateForm);
+noRadio.addEventListener("change", validateForm); -->

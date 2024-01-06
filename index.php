@@ -19,7 +19,7 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
       <!-- Modal of registration ug pg -->
           <div class="modal fade" id="exampleModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog ">
-              <div class="modal-content bg-info bg-opacity-75">
+              <div class="modal-content bg-light ">
                 <div class="modal-header">
                   <h1 class="modal-title fs-5" id="exampleModalLabel">Select Catogery</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -41,13 +41,13 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
             <!--logo and name of college-->
       <center>
         <div class="container-fluid mhead">
-          <img src="https://www.mgmccsit.ac.in/img/logo-g.png" alt="mgmlogo" />
+          <img src="https://www.mgmccsit.ac.in/img/logo-g.png" class="mt-4" alt="mgmlogo" />
           <h3>Mahatma Gandhi Missions's</h3>
           <h2>COLLEGE OF COMPUTER SCIENCE & INFORMATION TECHONOLOGY</h2>
-          <strong
+          <i><strong
             >Affiliated to Swami Ramanand Teerth Marathwada University, Nanded,
             India</strong
-          >
+          ></i>
         </div>
       </center>
       <!-- End logo and name of college-->
@@ -216,6 +216,9 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
             <img src="img/sldr5.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 5">
           </div>
           <div class="carousel-item">
+            <img src="https://www.mgmccsit.ac.in/assets/images/slider/slide5.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 5">
+          </div>
+          <div class="carousel-item">
             <img src="img/sldr6.jpg" class="d-block w-100 rounded-2  shadow-sm " alt="slider 6">
           </div>
           <div class="carousel-item">
@@ -239,7 +242,7 @@ background: linear-gradient(267deg, rgba(221,237,249,1) 0%, rgba(255,255,255,1) 
       
       <!-- Har Ghar Tiranga -->
       <div class="container ">
-        <img src="img/har-ghar-tiranga-web-banner-download-section.jpg" class="img-fluid    rounded-2 w-100" alt="">
+        <img src="img/slide3.jpg" class="img-fluid    rounded-2 w-100" alt="">
       </div>
       <!--  End Har Ghar Tiranga -->
 

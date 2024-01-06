@@ -19,7 +19,7 @@
     <div class="container">
     <strong><center> Campus Placements 2020-21 </center></strong>  
 
-    <table class="table-responsive-lg table-responsive-md table-responsive-sm table table-bordered border-primary table-warning text-center mt-2">
+    <table class="table-responsive-lg table-responsive-md table-responsive-sm table  table-hover res_table text-center mt-2">
       <tr>    
         <td>Sr. No.</td>
         <td>Name of Student</td>     
@@ -47,7 +47,7 @@
     <center>
       <strong><center>Campus Placements 2019-20</center></strong>   
 
-<table class="table-responsive-lg table-responsive-md table-responsive-sm table table-bordered border-primary table-warning text-center mt-2">
+<table class="table-responsive-lg table-responsive-md table-responsive-sm table text-center mt-2">
 
   <tr>
 
