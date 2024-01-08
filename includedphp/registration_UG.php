@@ -159,6 +159,7 @@
             <span id="addresserror"></span>
           </div>
         </div>
+        <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
           <label for="" class="form-label ms-2">Select Gender<span style="color:red;">*</span></label>
           <select class="form-select" aria-label="Default select example"   autocomplete="off" name="gender" id="gender"> 
@@ -169,15 +170,18 @@
             </select>
             <span id="gendererror"></span>
         </div>
-        
-          
-          <hr>
+        <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
+          <label for="" class="form-label ms-2">Enter your Contact no<span style="color:red;">*</span></label>
+          <input type="number" class="form-control" placeholder="Enter Your Contact No"   autocomplete="off" name="studcont" id="studcont">
+            <span id="studconterror"></span>
+        </div>
+        </div>
           <strong>Parent Details</strong>
           <!-- row 9 -->
           <div class="row">
             <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
                 <label class="form-label ms-2">Enter Your Father's Name<span style="color:red;">*</span></label>
-                <input type="text"  class="form-control" placeholder="Enter Your Father's Name"   autocomplete="off" name="fname">
+                <input type="text"  class="form-control" placeholder="Enter Your Father's Name"   autocomplete="off" name="fname" id="fname">
                <span id="fnameerror"></span>
               </div>
             <div class="col-sm-12 col-lg-6 col-md-6 mb-2">
@@ -191,7 +195,7 @@
             <div class="col-sm-12 col-lg-6 col-md-6 mb-2 mb-2">
                 <label  class="form-label ms-2">Father's Annual Income<span style="color:red;">*</span></label>
                 <input type="number"  class="form-control" placeholder="Father's Annual Income"   autocomplete="off" name="fanual" id="fanual">
-                <span id="fannualerror"></span>
+                <span id="fanualerror"></span>
               </div>
             <div class="col-sm-12 col-lg-6 col-md-6  mb-2">
                 <label  class="form-label ms-2">Father's Contact no<span style="color:red;">*</span></label>
@@ -281,13 +285,14 @@
           // const noRadio = document.getElementById("no");
           // const errorSpan = document.getElementById("yesnoerror"); 
           //   let yes =document.getElementById('yes').value;
-            let  fname=document.getElementById('fname').value;
-            // let  foccupation=document.getElementById('foccupation').value;
-            // let  fannual=document.getElementById('fannual').value;
+           
+            
             // let  fcontact=document.getElementById('fcontact').value;
-
-
-
+            let studcont =document.getElementById('studcont').value;
+            const studcontRegex = /^\d{10}$/;// Matches aadhar no
+            let fanual =document.getElementById('fanual').value;
+            let foccupation=document.getElementById('foccupation').value;
+            let fname = document.getElementById('fname').value;
             let gender =document.getElementById('gender').value;
             let address =document.getElementById('address').value;
             let city =document.getElementById('city').value;
@@ -400,19 +405,41 @@
                 document.getElementById('address').focus();
                 document.getElementById('address').style.border="2px solid red";
                 document.getElementById('addresserror').style.color="red";
-                document.getElementById('addresserror').innerHTML="only your name";
+                document.getElementById('addresserror').innerHTML="Enter your Address";
               }else if(regxcalltext(address)){
               }else if(gender==""){
                 document.getElementById('gender').focus();
                 document.getElementById('gender').style.border="2px solid red";
                 document.getElementById('gendererror').style.color="red";
-                document.getElementById('gendererror').innerHTML="only your name";              
-              }else 
+                document.getElementById('gendererror').innerHTML="Select Gender";              
+              }else if(studcont==""){
+                document.getElementById('studcont').focus();
+                document.getElementById('studcont').style.border="2px solid red";
+                document.getElementById('studconterror').style.color="red";
+                document.getElementById('studconterror').innerHTML="Enter your contact no";              
+              }else if(!studcontRegex.test(studcont)){
+                alert("only 10 no provide for contact no");
+              }else if(fname==""){
+                document.getElementById('fname').focus();
+                document.getElementById('fname').style.border="2px solid red";
+                document.getElementById('fnameerror').style.color="red";
+                document.getElementById('fnameerror').innerHTML="fullname of father";
+              }else  if(regxcalltext(fname)){
+              }else  if(foccupation== ""){
+                document.getElementById('foccupation').focus();
+                document.getElementById('foccupation').style.border="2px solid red";
+                document.getElementById('foccupationerror').style.color="red";
+                document.getElementById('foccupationerror').innerHTML="father's occupation";
+              }else  if(regxcalltext(foccupation)){
+              }else  if(fanual== ""){
+                document.getElementById('fanual').focus();
+                document.getElementById('fanual').style.border="2px solid red";
+                document.getElementById('fanualerror').style.color="red";
+                document.getElementById('fanualerror').innerHTML="Father's Annual income in RS.";
               }
-              
 
          
-          
+            }
           function regxcalltext(name){
               var regex = /^[a-zA-Z\s]+$/;
                 if (!regex.test(name)) {
