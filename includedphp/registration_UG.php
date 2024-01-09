@@ -286,8 +286,9 @@
           // const errorSpan = document.getElementById("yesnoerror"); 
           //   let yes =document.getElementById('yes').value;
            
-            
-            // let  fcontact=document.getElementById('fcontact').value;
+            var selectedOption = document.getElementById("degree").value; 
+            let  fcontact=document.getElementById('fcontact').value;
+            const regexPattern = /^[0-9]+$/;
             let studcont =document.getElementById('studcont').value;
             const studcontRegex = /^\d{10}$/;// Matches aadhar no
             let fanual =document.getElementById('fanual').value;
@@ -418,7 +419,7 @@
                 document.getElementById('studconterror').style.color="red";
                 document.getElementById('studconterror').innerHTML="Enter your contact no";              
               }else if(!studcontRegex.test(studcont)){
-                alert("only 10 no provide for contact no");
+                alert("student's Phone no contain only 10 digit");
               }else if(fname==""){
                 document.getElementById('fname').focus();
                 document.getElementById('fname').style.border="2px solid red";
@@ -436,16 +437,44 @@
                 document.getElementById('fanual').style.border="2px solid red";
                 document.getElementById('fanualerror').style.color="red";
                 document.getElementById('fanualerror').innerHTML="Father's Annual income in RS.";
-              }
+              }else if (!regexPattern.test(fanual)) {
+                alert("Enter only money in RS");
+              }else if(fcontact ==""){
+                document.getElementById('fcontact').focus();
+                document.getElementById('fcontact').style.border="2px solid red";
+                document.getElementById('fcontacterror').style.color="red";
+                document.getElementById('fcontacterror').innerHTML="Enter a valid phone no";
+              }else if(!studcontRegex.test(fcontact)){
+                alert("invalid Father contact no ");
+              }else  if (selectedOption === "yes") {
+            // If "Yes" is selected, validate the fields
+            var otherCourse = document.getElementById("othercourse").value;
+            var cgpa = document.getElementById("cgpa").value;
 
-         
+            // Validate Name of Other Course
+            if (otherCourse.trim() === "") {
+                document.getElementById("othercourseerror").innerText = "Name of Other Course is required.";
+                return false;
+            } else {
+                document.getElementById("othercourseerror").innerText = "";
             }
+
+            // Validate CGPA
+            if (cgpa.trim() === "") {
+                document.getElementById("cgpaerror").innerText = "CGPA is required.";
+                return false;
+            } else {
+                document.getElementById("cgpaerror").innerText = "";
+            }
+        }
+              
           function regxcalltext(name){
               var regex = /^[a-zA-Z\s]+$/;
                 if (!regex.test(name)) {
                   return true;
                  } 
             }
+          }
   </script>
   </body>
   <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -455,29 +484,3 @@
 
 
 
-<!-- 
-if (yesRadio.checked || noRadio.checked) {
-
-errorSpan.textContent = "";  // Clear any previous error messages
-
-// Get the value of the selected radio button
-const selectedValue = yesRadio.checked ? "yes" : "no";
-
-// Perform actions based on the selected value
-if (selectedValue === "yes") {
-  if(othercourse==""){
-   document.getElementById('othercourse').focus();
-   document.getElementById('othercourse').style.border="2px solid red";
-   document.getElementById('othercourseerror').style.color="red";
-   document.getElementById('othercourseerror').innerHTML="coursename and cgpa must needed"; 
- }else if(regxcalltext(othercourse)){
- } if(cgpa==""){
-   alert("hello");
- } 
-} else {
-// Display an error message if no radio button is selected
-alert("Select degree/Diploma status");
-}     
-
-yesRadio.addEventListener("change", validateForm);
-noRadio.addEventListener("change", validateForm); -->
